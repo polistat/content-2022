@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Rhode Island
 STATE DESCRIPTION
 
 ---
@@ -7,14 +7,14 @@ STATE DESCRIPTION
 
 <Grid>
   <Box>
-    ### DEMOCRATIC CANDIDATE (D)
-    ![Image of DEMOCRATIC CANDIDATE]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/danielmckee.jpg
-    *Source: [SOURCE NAME](SOURCE LINK)*
+    ### Dan McKee (D)
+    ![Image of Dan McKee](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/danielmckee.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/Daniel_McKee)*
   </Box>
   <Box>
-    ### REPUBLICAN CANDIDATE (R)
-    ![Image of REPUBLICAN CANDIDATE]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ashley_KalusRI.png
-    *Source: [SOURCE NAME](SOURCE LINK)*
+    ### Ashley Kalus (R)
+    ![Image of Ashley Kalus](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ashley_KalusRI.png)
+    *Source: [Ballotpedia](https://ballotpedia.org/Ashley_Kalus)*
   </Box>
 
   <Box>
@@ -35,7 +35,7 @@ STATE DESCRIPTION
   </Box>
 
   <Header>
-    
+    #### Issues & controversies
   </Header>
 
   <WideBox>

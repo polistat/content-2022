@@ -8,13 +8,13 @@ New York is situated on the East Coast, with water covering 36.4% of its surface
 <Grid>
   <Box>
     ### Kathy Hochul (D)
-    ![Image of DEMOCRATIC CANDIDATE](https://ballotpedia.org/Kathy_Hochul)
-    *Source: [Ballotpedia](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ad05paDl_400x400.jpg)*
+    ![Image of Kathy Hochul](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ad05paDl_400x400.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/Kathy_Hochul)*
   </Box>
   <Box>
     ### Lee Zeldin (R)
-    ![Image of REPUBLICAN CANDIDATE](https://ballotpedia.org/Lee_Zeldin)
-    *Source: [Ballotpedia](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Lee_Zeldin_new_official_portrait.jpg)*
+    ![Image of Lee Zeldin](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Lee_Zeldin_new_official_portrait.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/Lee_Zeldin)*
   </Box>
 
   <Box>

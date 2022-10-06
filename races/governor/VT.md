@@ -12,7 +12,7 @@ Vermont is the second least-populous state in the US, located in the very northe
     *Source: [Ballotpedia](https://ballotpedia.org/Brenda_Siegel)*
   </Box>
   <Box>
-    ### Phil Scott(R)
+    ### Phil Scott (R)
     ![Image of Phil Scott](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Phil_Scott.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Phil_Scott)*
   </Box>
