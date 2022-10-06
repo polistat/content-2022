@@ -1,6 +1,6 @@
 ## About Minnesota
-STATE DESCRIPTION
 Minnesota is a large state in the upper midwest of the US, originally inhabited by the Dakota and Ojibwe people. Minnesota has its capital in St. Paul with more than 60% of its population living in the Minneapolis-St. Paul metropolitan area, home of the Mall of America. Minnesota has historically voted DFL, the Democratic-Farmer-Labor Party, with currently both senators and the governor members of the party. The DFL is nationally affiliated with the Democratic Party. 
+
 ---
 
 ## Candidates
@@ -8,12 +8,12 @@ Minnesota is a large state in the upper midwest of the US, originally inhabited 
 <Grid>
   <Box>
     ### Tim Walz (D)
-    ![Image of Tim Walz](https://en.wikipedia.org/wiki/Tim_Walz#/media/File:Tim_Walz_official_photo.jpg)
+    ![Image of Tim Walz](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Tim_Walz_official_photo.jpg/1280px-Tim_Walz_official_photo.jpg)
     *Source: [Wikipedia](https://en.wikipedia.org/wiki/Tim_Walz)*
   </Box>
   <Box>
     ### Scott Jensen (R)
-    ![Image of Scott Jensen](https://en.wikipedia.org/wiki/Scott_Jensen_(Minnesota_politician)#/media/File:Minnesota_State_Senator_Scott_Jensen.jpg)
+    ![Image of Scott Jensen](https://upload.wikimedia.org/wikipedia/commons/a/a8/Minnesota_State_Senator_Scott_Jensen.jpg)
     *Source: [Wikipedia](https://en.wikipedia.org/wiki/Scott_Jensen_(Minnesota_politician))*
   </Box>
 

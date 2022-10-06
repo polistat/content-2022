@@ -1,5 +1,5 @@
 ## About Wyoming
-Wyoming is the least populous state in the US, and is known for being one of the two essentially-rectangular states, along with Colorado. Situated in the Mountain West, its landscape is a mix of mountain rangelands and prairies. . It was the first state to grant women suffrage, which gave it the nickname "The Equality State". Historically, it was known for its ranching, but today its economy relies on fossil fuel extraction and tourism to its beautiful vistas.
+Wyoming is the least populous state in the US, and is known for being one of the two essentially-rectangular states, along with Colorado. Situated in the Mountain West, its landscape is a mix of mountain rangelands and prairies. It was the first state to grant women suffrage, which gave it the nickname "The Equality State". Historically, it was known for its ranching, but today its economy relies on fossil fuel extraction and tourism to its beautiful vistas.
 
 ---
 
@@ -7,12 +7,12 @@ Wyoming is the least populous state in the US, and is known for being one of the
 
 <Grid>
   <Box>
-    ### DEMOCRATIC CANDIDATE (D)
+    ### Theresa Livingston (D)
     ![Image of Theresa Livingston](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Theresa_Livingston.jpeg)
     *Source: [Ballotpedia](https://ballotpedia.org/Theresa_Livingston)*
   </Box>
   <Box>
-    ### REPUBLICAN CANDIDATE (R)
+    ### Mark Gordon (R)
     ![Image of Mark Gordon](https://upload.wikimedia.org/wikipedia/commons/7/74/Mark_Gordon_of_Wyoming.jpg)
     *Source: [Wikipedia](https://en.wikipedia.org/wiki/Mark_Gordon)*
   </Box>
@@ -49,7 +49,7 @@ Wyoming is the least populous state in the US, and is known for being one of the
     #### Campaign ads
   </Header>
   <Box>
-    - Consensus thus far is that Livingston's campaign has not as of yet produced a campaign ad. We wish her the best on this endeavor.
+    - Consensus thus far is that Livingston's campaign has not as of yet produced a campaign ad.
   </Box>
   <Box>
     - [Why We Fight](https://www.youtube.com/watch?v=CGr2M7S9odY)

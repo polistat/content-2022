@@ -8,12 +8,12 @@ Ohio is a constituent state on the northeastern edge of the Midwest.
 <Grid>
   <Box>
     ### Nan Whaley (D)
-    ![Image of DEMOCRATIC CANDIDATE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fliberal-arts.wright.edu%2Fcelia%2Fprofile%2Fmayor-nan-whaley&psig=AOvVaw2s60HnFvPWeZCX-HBFnkIP&ust=1664840775092000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCODD3K7dwvoCFQAAAAAdAAAAABAD)
+    ![Image of Nan Whaley](https://liberal-arts.wright.edu/sites/liberal-arts.wright.edu/files/styles/medium/public/uploads/2020/Feb/feature_profile/Nan%20Whaley.jpg?itok=VaP6NIFb)
     *Source: [EIG](https://eig.org/about-us/executive-team-staff/mayor-nan-whaley/)*
   </Box>
   <Box>
-    ### Richard DeWine(R)
-    ![Image of REPUBLICAN CANDIDATE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fballotpedia.org%2FMike_DeWine&psig=AOvVaw2Ls1tmBvsll53MAodiUj8f&ust=1664854369026000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCLjHsvyPw_oCFQAAAAAdAAAAABAD)
+    ### Richard DeWine (R)
+    ![Image of Richard DeWine](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MikeDeWine2015.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Mike_DeWine)*
   </Box>
 
@@ -21,7 +21,7 @@ Ohio is a constituent state on the northeastern edge of the Midwest.
     Whaley has been on the Dayton City Commission from 2005-2013, and was the Dayton City Mayor from 2014-2022.
   </Box>
   <Box>
-    DeWine has been the Ohio State Senator from 1981-1982, Ohio Senator from 1995-2007, Attorney General of Ohio from 2011-2019, and Governor from 2019-present. Because of facing backlash from Republicans for implementing strict COVID-19 restrictions, such as a stay at home order and mask mandates, he was challenged by Jim Renacci (R) for the Republican primaries. This was the first incumbent Ohio governor to face a primary challenger since Michael Disalle in 1962. At first Renacci was winning, but then DeWine took a lead by attacking President Joe Biden’s policies and signing Constitutional carry into law. 
+    DeWine has been the Ohio State Senator from 1981-1982, Ohio Senator from 1995-2007, Attorney General of Ohio from 2011-2019, and Governor from 2019-present. Because of facing backlash from Republicans for implementing strict COVID-19 restrictions, such as a stay at home order and mask mandates, he was challenged by Jim Renacci (R) for the Republican primaries. This was the first incumbent Ohio governor to face a primary challenger since Michael Disalle in 1962. At first Renacci was winning, but then DeWine took a lead by attacking President Joe Biden's policies and signing Constitutional carry into law. 
   </Box>
 
   <Header>

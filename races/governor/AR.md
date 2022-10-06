@@ -13,7 +13,7 @@ Arkansas is a very cool state.
   </Box>
   <Box>
     ### Sarah Sanders (R)
-    ![Image of Sarah Sanders](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders#/media/File:Sarah_Sanders_(49290685006)_(cropped).jpg)
+    ![Image of Sarah Sanders](https://upload.wikimedia.org/wikipedia/commons/f/ff/Sarah_Sanders_%2849290685006%29_%28cropped%29.jpg)
     *Source: [Courtesy of Wikipedia](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders)*
   </Box>
 

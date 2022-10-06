@@ -8,12 +8,12 @@ Tennessee is the 36th largest by area and the 16th most populous of the 50 state
 <Grid>
   <Box>
     ### Jason Martin (D)
-    ![Image of DEMOCRATIC CANDIDATE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tennessean.com%2Fstory%2Fopinion%2F2022%2F07%2F15%2Ftennessee-aug-4-election-democrat-jason-martin-governor-candidate%2F10072421002%2F&psig=AOvVaw3D4JBZILRB8dC3phumUKPF&ust=1664851133275000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCJjo5LCAw_oCFQAAAAAdAAAAABAD)
+    ![Image of Jason Martin](https://www.gannett-cdn.com/presto/2022/07/15/PNAS/ddc3fd3b-4645-4f97-8a67-95f575e19a7b-IMG_5736_1_-_Emily_Cupples.jpg?width=1320&height=1320&fit=crop&format=pjpg&auto=webp)
     *Source: [tennessean.com](https://www.tennessean.com/story/opinion/2022/07/15/tennessee-aug-4-election-democrat-jason-martin-governor-candidate/10072421002/)*
   </Box>
   <Box>
     ### Bill Lee (R)
-    ![Image of REPUBLICAN CANDIDATE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tn.gov%2Fgovernor%2Fabout-bill-lee.html&psig=AOvVaw1NJ_Zkjc2FonsvjpK_8Hkn&ust=1664850866263000&source=images&cd=vfe&ved=0CAkQjRxqFwoTCKjWjbH_wvoCFQAAAAAdAAAAABAD)
+    ![Image of Bill Lee](https://www.tn.gov/content/tn/governor/about-bill-lee/jcr%3acontent/content/tn_textandimage/image.img.png/1659032370619.png)
     *Source: [tn.gov](https://www.tn.gov/governor/about-bill-lee.html)*
   </Box>
 
