@@ -1,5 +1,4 @@
 ## About Connecticut
-STATE DESCRIPTION
 Connecticut is a small state in New England, a region of the northeastern US. A blend of urban life and rustic landscape, Connecticut is known for its fall foliage, great universities, and for being the birthplace of the first hamburger. With its heavily urban population, the state has historically voted Democratic in congressional and presidential elections. 
 
 ---

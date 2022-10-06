@@ -1,4 +1,4 @@
-## About Oklahoma's Special Election
+## About Oklahoma
 Senator Jim Inholfe announced planned resignation at the end of the 117th US Congress, meaning Oklahoma is holding a special election to fill the remaining four years of his term on top of the regular election. In the special election, Republican Markwayne Mullin is running against Democrat Kendra Horn, with Libertarian Robert Murphy and independent Ray Woods participating.
 
 ---
@@ -8,13 +8,13 @@ Senator Jim Inholfe announced planned resignation at the end of the 117th US Con
 <Grid>
   <Box>
     ### Kendra Horn (D)
-    ![Image of Kendra Horn]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KENDRA_HORN.jpg
-    *Source: [Ballotpedia]https://ballotpedia.org/Kendra_Horn*
+    ![Image of Kendra Horn](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KENDRA_HORN.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/Kendra_Horn)*
   </Box>
   <Box>
     ### Markwayne Mullin (R)
-    ![Image of Markwayne Mullin]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Markwayne-Mullin.PNG
-    *Source: [Ballotpedia]https://ballotpedia.org/Markwayne_Mullin*
+    ![Image of Markwayne Mullin](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Markwayne-Mullin.PNG)
+    *Source: [Ballotpedia](https://ballotpedia.org/Markwayne_Mullin)*
   </Box>
 
   <Box>
@@ -46,9 +46,9 @@ Senator Jim Inholfe announced planned resignation at the end of the 117th US Con
     #### Campaign ads
   </Header>
   <Box>
-    - [Essential | Kendra Horn]https://www.youtube.com/watch?v=sW-UVPEUV58
+    - [Essential | Kendra Horn](https://www.youtube.com/watch?v=sW-UVPEUV58)
   </Box>
   <Box>
-    - [Markwayne Mullin explains why he’s the best candidate for Inhofe’s US Senate seat]https://www.youtube.com/watch?v=Cs_wwEGNqOY
+    - [Markwayne Mullin explains why he’s the best candidate for Inhofe’s US Senate seat](https://www.youtube.com/watch?v=Cs_wwEGNqOY)
   </Box>
 </Grid>

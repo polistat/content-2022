@@ -8,12 +8,12 @@ Indiana is a state located in the Midwest region of the United States of America
 <Grid>
   <Box>
     ### Thomas McDermott Jr. (D)
-    ![Image of Thomas McDermott Jr.](https://en.wikipedia.org/wiki/Thomas_McDermott_Jr.#/media/File:TommyMcDermont.jpg)
+    ![Image of Thomas McDermott Jr.](https://upload.wikimedia.org/wikipedia/commons/9/96/TommyMcDermont.jpg)
     *Source: [wikipedia.org](https://en.wikipedia.org/wiki/Thomas_McDermott_Jr.)*
   </Box>
   <Box>
     ### Todd Young (R)
-    ![Image of Todd Young](https://en.wikipedia.org/wiki/File:Sen._Todd_Young_official_photo.jpg)
+    ![Image of Todd Young](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sen._Todd_Young_official_photo.jpg/481px-Sen._Todd_Young_official_photo.jpg)
     *Source: [wikipedia.org](https://en.wikipedia.org/wiki/Todd_Young)*
   </Box>
 

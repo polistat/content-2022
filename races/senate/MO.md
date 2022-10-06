@@ -50,8 +50,6 @@ represented by evangelical christians. Non christian faiths make up less than
   </Header>
 
   <WideBox>
-    <!--The collaborator who wrote about this race needs to add an issues and
-    controversies section - Kenny-->
     Abortion is expected to be an extremely important issue in this election,
     with Eric Schmitt being responsible for enforcing Missouri's current abortion ban,
     which has no exceptions unless the life of the mother is at risk, and

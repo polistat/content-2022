@@ -1,4 +1,4 @@
-## About Oklahoma's Regular Election
+## About Oklahoma
 Senator Jim Inholfe announced planned resignation at the end of the 117th US Congress, meaning Oklahoma is holding a special election to fill the remaining four years of his term on top of the regular election. For the regular election, the incumbent Republican James Lankford is running against Democrat Madison Horn, with Libertarian Kenneth Blevins and independent Michael Delaney also participating.
 
 ---
@@ -8,13 +8,13 @@ Senator Jim Inholfe announced planned resignation at the end of the 117th US Con
 <Grid>
   <Box>
     ### Madison Horn (D)
-    ![Image of Madison Horn]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Madison-Horn.PNG
-    *Source: [Ballotpedia]https://ballotpedia.org/Madison_Horn*
+    ![Image of Madison Horn](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Madison-Horn.PNG)
+    *Source: [Ballotpedia](https://ballotpedia.org/Madison_Horn)*
   </Box>
   <Box>
     ### James Lankford (R)
-    ![Image of James Lankford]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/James_Lankford.jpg
-    *Source: [Ballotpedia]https://ballotpedia.org/James_Lankford*
+    ![Image of James Lankford](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/James_Lankford.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/James_Lankford)*
   </Box>
 
   <Box>
@@ -46,9 +46,9 @@ Senator Jim Inholfe announced planned resignation at the end of the 117th US Con
     #### Campaign ads
   </Header>
   <Box>
-    - [2022, US Senate for Oklahoma - Madison Horn]https://www.youtube.com/watch?v=Caz6uSLWM4A
+    - [2022, US Senate for Oklahoma - Madison Horn](https://www.youtube.com/watch?v=Caz6uSLWM4A)
   </Box>
   <Box>
-    - [James Lankford US Senate]https://www.youtube.com/watch?v=uAYzH6_sI5w
+    - [James Lankford US Senate](https://www.youtube.com/watch?v=uAYzH6_sI5w)
   </Box>
 </Grid>

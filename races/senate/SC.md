@@ -39,8 +39,9 @@ South Carolina is historically a Republican-voting state. About 2/3 of its popul
   </Header>
 
   <WideBox>
-    Krystle Matthews (D): Matthews believes that young adults, minorities, women, and working families are the backbone of our state. She has been a champion for women and girls, veteran’s issues, economic development, and infrastructure. https://www.live5news.com/2022/09/09/watch-live-us-senate-nominee-hold-news-conference-sc-democrats-call-her-quit/
-    Tim Scott (R): Scott is strongly pro-life and supports the Child Interstate Abortion Notification Act, Pain-Capable Unborn Child Protection Act, and the No Taxpayer Funding for Abortion Act. He believes that the government has been overreaching into the lives of many U.S. citizens and vows not to do so to his people. https://www.washingtonpost.com/politics/tim-scott-comments-race/2021/04/29/4b666c1a-a8ff-11eb-8c1a-56f0cb4ff3b5_story.html
+    Krystle Matthews (D): Matthews believes that young adults, minorities, women, and working families are the backbone of our state. She has been a champion for women and girls, veteran’s issues, economic development, and infrastructure. [https://www.live5news.com/2022/09/09/watch-live-us-senate-nominee-hold-news-conference-sc-democrats-call-her-quit/](https://www.live5news.com/2022/09/09/watch-live-us-senate-nominee-hold-news-conference-sc-democrats-call-her-quit/)
+
+    Tim Scott (R): Scott is strongly pro-life and supports the Child Interstate Abortion Notification Act, Pain-Capable Unborn Child Protection Act, and the No Taxpayer Funding for Abortion Act. He believes that the government has been overreaching into the lives of many U.S. citizens and vows not to do so to his people. [https://www.washingtonpost.com/politics/tim-scott-comments-race/2021/04/29/4b666c1a-a8ff-11eb-8c1a-56f0cb4ff3b5_story.html](https://www.washingtonpost.com/politics/tim-scott-comments-race/2021/04/29/4b666c1a-a8ff-11eb-8c1a-56f0cb4ff3b5_story.html)
   </WideBox>
  
   <Header>

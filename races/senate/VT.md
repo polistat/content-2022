@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Vermont
 STATE DESCRIPTION
 
 ---
@@ -8,12 +8,12 @@ STATE DESCRIPTION
 <Grid>
   <Box>
     ### Peter Welch (D)
-    ![Image of Peter Welch](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwelchforvermont.com%2Fwp-content%2Fuploads%2F2022%2F01%2Fpeter-welch-h-cutout-min-1024x1024.png&imgrefurl=https%3A%2F%2Fwelchforvermont.com%2F&tbnid=18zxjUMlx2ejAM&vet=12ahUKEwjusOCr-sf6AhVlunIEHZDMCLUQMygBegUIARDWAQ..i&docid=bCM3s6OECSjwPM&w=1024&h=1024&q=peter%20welch&ved=2ahUKEwjusOCr-sf6AhVlunIEHZDMCLUQMygBegUIARDWAQ)
+    ![Image of Peter Welch](https://welchforvermont.com/wp-content/uploads/2022/01/peter-welch-h-cutout-min-1024x1024.png)
     *Source: [Peter Welch for Vermont](https://welchforvermont.com/)*
   </Box>
   <Box>
     ### Gerald Malloy (R)
-    ![Image of Gerald Malloy](https://www.google.com/imgres?imgurl=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims4%2Fdefault%2Fb0ae54d%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F449x599%2B0%2B0%2Fresize%2F880x1174!%2Fquality%2F90%2F%3Furl%3Dhttp%253A%252F%252Fnpr-brightspot.s3.amazonaws.com%252Fc2%252F02%252F9d1c065045e5bcf1f0a17849136f%252Fgerald-malloy.jpg&imgrefurl=https%3A%2F%2Fwww.wamc.org%2Fpodcast%2Fthe-roundtable%2F2022-09-07%2Fcongressional-corner-with-gerald-malloy&tbnid=7CWnAplMaH-7FM&vet=12ahUKEwjhiOXQ-sf6AhXms3IEHbcBCuMQMygEegUIARCZAQ..i&docid=O9aPNBp6_6hQMM&w=880&h=1174&q=gerald%20malloy&ved=2ahUKEwjhiOXQ-sf6AhXms3IEHbcBCuMQMygEegUIARCZAQ)
+    ![Image of Gerald Malloy](https://npr.brightspotcdn.com/dims4/default/265c413/2147483647/strip/true/crop/449x599+0+0/resize/1760x2348!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc2%2F02%2F9d1c065045e5bcf1f0a17849136f%2Fgerald-malloy.jpg)
     *Source: [WAMC](https://www.wamc.org/podcast/the-roundtable/2022-09-07/congressional-corner-with-gerald-malloy)*
   </Box>
 
@@ -39,7 +39,8 @@ STATE DESCRIPTION
   </Header>
 
   <WideBox>
-    Peter Welch’s major campaign issues include increasing availability to healthcare for all Americans, increasing renewable energy to combat climate change, and enacting gun safety reforms. Gerald Malloy, on the other hand, wants to protect people’s rights to guns while also increasing national defense by giving more resources to law enforcement. He also wants to limit congressional spending and the national debt.   </WideBox>
+    Peter Welch’s major campaign issues include increasing availability to healthcare for all Americans, increasing renewable energy to combat climate change, and enacting gun safety reforms. Gerald Malloy, on the other hand, wants to protect people’s rights to guns while also increasing national defense by giving more resources to law enforcement. He also wants to limit congressional spending and the national debt.
+  </WideBox>
  
   <Header>
     #### Campaign ads

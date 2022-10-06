@@ -8,12 +8,12 @@ With a population of three million, Utah is the 30th most populous state. Urban 
 <Grid>
   <Box>
     ### Evan McMullin (D)
-    ![Image of DEMOCRATIC CANDIDATE](https://www.google.com/imgres?imgurl=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F651%2Fcpsprodpb%2F2B7B%2Fproduction%2F_90713111_evanmcmullin.jpg&imgrefurl=https%3A%2F%2Fwww.bbc.com%2Fnews%2Felection-us-2016-37012626&tbnid=E868CSWWHjaVZM&vet=12ahUKEwij_Yei1r_6AhUxVTUKHbVABOEQMygBegUIARCXAQ..i&docid=fhPlo4nbRExXJM&w=651&h=451&q=evan%20mcmullin%20candidate%20picture&ved=2ahUKEwij_Yei1r_6AhUxVTUKHbVABOEQMygBegUIARCXAQ)
+    ![Image of DEMOCRATIC CANDIDATE](https://ichef.bbci.co.uk/news/651/cpsprodpb/2B7B/production/_90713111_evanmcmullin.jpg)
     *Source: [BBC](https://www.bbc.com/news/election-us-2016-37012626)*
   </Box>
   <Box>
     ### Mike Lee (R)
-    ![Image of REPUBLICAN CANDIDATE](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMike_Lee_(American_politician)&psig=AOvVaw0jcv4BlMOIWK899m9t4b2-&ust=1664735858609000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjdub7Wv_oCFQAAAAAdAAAAABAE)
+    ![Image of REPUBLICAN CANDIDATE](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mike_Lee%2C_official_portrait.jpg/220px-Mike_Lee%2C_official_portrait.jpg)
     *Source: [Wikipedia](https://en.wikipedia.org/wiki/Mike_Lee)*
   </Box>
 

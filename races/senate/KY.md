@@ -8,12 +8,12 @@ Kentucky is a south central state along the west side of the Appalachian Mountai
 <Grid>
   <Box>
     ### Charles Booker (D)
-    ![Image of Charles Booker](https://www.google.com/url?sa=i&url=https%3A%2F%2Fberniesanders.com%2Fget-involved%2Fcharles-booker%2F&psig=AOvVaw2hdS9xdR1oL8rJxepNdZry&ust=1664581193351000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiLyqiWu_oCFQAAAAAdAAAAABAD)
+    ![Image of Charles Booker](https://cms-assets.berniesanders.com/media/images/Charles_Booker2.2e16d0ba.fill-600x600.jpg)
     *Source: [berniesanders.com](https://berniesanders.com/get-involved/charles-booker/)*
   </Box>
   <Box>
     ### Rand Paul (R)
-    ![Image of Rand Paul](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.congress.gov%2Fmember%2Frand-paul%2FP000603&psig=AOvVaw3YmqML-4LNt7iaIpjF95Fj&ust=1664581157625000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPC3kJiWu_oCFQAAAAAdAAAAABAD)
+    ![Image of Rand Paul](https://www.congress.gov/img/member/p000603_200.jpg)
     *Source: [Congress.gov](https://www.congress.gov/member/rand-paul/P000603)*
   </Box>
 

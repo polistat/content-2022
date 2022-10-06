@@ -1,4 +1,4 @@
-## About Illinois Senate
+## About Illinois
 In 2021, 60% of residents of Illinois identified as White/non-hispanic. 18% identified as Hispanic/Latino, 14.1% identified as Black, 5.9% identified as Asian, 0.2% as Native Hawaiian and Other Pacific Islander, and 1.8% as multiracial. As for political leanings, 48% identified as Democratic/Democratic leaning, 33% identified as Republican/Republican leaning, and 19% identified as no leaning. The notable candidates for the Illinois U.S. Senate are incumbent Tammy Duckworth and Republican candidate Kathy Salvi.
 
 ---
@@ -47,8 +47,6 @@ In 2021, 60% of residents of Illinois identified as White/non-hispanic. 18% iden
   </Header>
   <Box>
     - [Duckworth Twitter Ad](https://pbs.twimg.com/media/FcieYQrWAAEsxzn.jpg)
-  </Box>
-  <Box>
     - [Duckworth Campaign Website](https://www.duckworth.senate.gov/)
   </Box>
   <Box>

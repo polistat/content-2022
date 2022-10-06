@@ -9,13 +9,13 @@ Democratic incumbent Catherine Cortez Masto will run against republican Adam Lax
 <Grid>
   <Box>
     ### Catherine Cortez Masto (D)
-    ![Image of Catherine Cortez Masto]https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Catherine_Cortez_Masto_portrait_red.jpg/191px-Catherine_Cortez_Masto_portrait_red.jpg
-    *Source: [Wikipedia]https://en.wikipedia.org/wiki/Catherine_Cortez_Masto*
+    ![Image of Catherine Cortez Masto](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Catherine_Cortez_Masto_portrait_red.jpg/191px-Catherine_Cortez_Masto_portrait_red.jpg)
+    *Source: [Wikipedia](https://en.wikipedia.org/wiki/Catherine_Cortez_Masto)*
   </Box>
   <Box>
     ### Adam Laxalt (R)
-    ![Image of Adam Laxalt]https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Adam_Laxalt_by_Gage_Skidmore_%28cropped%29.jpg/164px-Adam_Laxalt_by_Gage_Skidmore_%28cropped%29.jpg
-    *Source: [Wikipedia]https://en.wikipedia.org/wiki/Adam_Laxalt*
+    ![Image of Adam Laxalt](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Adam_Laxalt_by_Gage_Skidmore_%28cropped%29.jpg/164px-Adam_Laxalt_by_Gage_Skidmore_%28cropped%29.jpg)
+    *Source: [Wikipedia](https://en.wikipedia.org/wiki/Adam_Laxalt)*
   </Box>
 
   <Box>
@@ -49,9 +49,9 @@ Democratic incumbent Catherine Cortez Masto will run against republican Adam Lax
     #### Campaign ads
   </Header>
   <Box>
-    - [Catherine Cortez Masto for Senate]https://www.youtube.com/watch?v=s6r0rqPahVQ 
+    - [Catherine Cortez Masto for Senate](https://www.youtube.com/watch?v=s6r0rqPahVQ)
   </Box>
   <Box>
-    - [Adam Laxalt - To Serve]https://www.youtube.com/watch?v=fwHDLHru3L8
+    - [Adam Laxalt - To Serve](https://www.youtube.com/watch?v=fwHDLHru3L8)
   </Box>
 </Grid>

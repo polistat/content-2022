@@ -8,12 +8,12 @@ North Dakota is a U.S. state in the Upper Midwest, sharing one border with Canad
 <Grid>
   <Box>
     ### Katrina Christiansen (D)
-    ![Image of Katrina Christiansen](https://www.google.com/url?sa=i&url=https%3A%2F%2Fballotpedia.org%2FKatrina_Christiansen&psig=AOvVaw1hGHDMqPv44GhXjeHDpZUe&ust=1664579746710000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPD93PiQu_oCFQAAAAAdAAAAABAD)
+    ![Image of Katrina Christiansen](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KatrinaChristiansen.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Katrina_Christiansen)*
   </Box>
   <Box>
     ### John Hoeven (R)
-    ![Image of John Hoeven](https://www.google.com/url?sa=i&url=https%3A%2F%2Fballotpedia.org%2FJohn_Hoeven&psig=AOvVaw01dvMs-qTM5jL8WiF_gVKU&ust=1664579842453000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJD3uKSRu_oCFQAAAAAdAAAAABAD)
+    ![Image of John Hoeven](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/John_Hoeven.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/John_Hoeven)*
   </Box>
 

@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Colorado
 Michael Bennet is the incumbent senator, and he’s been in office since 2009. The Republican nominee, Joe O’Dea, owns a construction company. 
 
 ---

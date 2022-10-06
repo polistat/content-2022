@@ -1,4 +1,4 @@
-## About STATE NAME
+## About South Dakota
 STATE DESCRIPTION
 
 ---

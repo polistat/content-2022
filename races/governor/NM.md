@@ -31,7 +31,8 @@ New Mexico is a large state (the fifth largest state in the US, to be exact) in 
     Michelle Lujan Grisham is the incumbent, so she advanced from the Democratic primary election.
   </Box>
   <Box>
-    In the Republican primary election, Mark Ronchetti ran against five other republican candidates and won a whopping 59.9% of the vote.  </Box>
+    In the Republican primary election, Mark Ronchetti ran against five other republican candidates and won a whopping 59.9% of the vote.
+  </Box>
 
   <Header>
     #### Issues & controversies

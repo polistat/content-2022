@@ -1,8 +1,8 @@
 ## About Alaska
-STATE DESCRIPTION
-Alaska, while being the largest state by area in the Union, is 48th in terms of population. Of that population around half live in the Anchorage metropolitan area, which has almost ten times the population of the next largest Alaskan city, Fairbanks. It has the highest proportional indigenous population, at around 15%, with the rest being almost entirely White. While per capita income in Alaska is one of the highest in the country, it has an equally high cost of living due to it's remote nature. It's economy depends heavily on natural resource extraction, particularly oil, coal, silver, and zinc. Almost 85% of the state budget is supplied by oil revanue. It also has large tourism, logging, and fishing sectors, as well as being greatly supported by the US military bases in the region.
----
+Alaska, while being the largest state by area in the Union, is 48th in terms of population. Of that population around half live in the Anchorage metropolitan area, which has almost ten times the population of the next largest Alaskan city, Fairbanks. It has the highest proportional indigenous population, at around 15%, with the rest being almost entirely White. While per capita income in Alaska is one of the highest in the country, it has an equally high cost of living due to it's remote nature. It's economy depends heavily on natural resource extraction, particularly oil, coal, silver, and zinc. Almost 85% of the state budget is supplied by oil revenue. It also has large tourism, logging, and fishing sectors, as well as being greatly supported by the US military bases in the region.
 
+---
+ 
 ## Candidates
 
 <Grid>
@@ -22,6 +22,7 @@ Alaska, while being the largest state by area in the Union, is 48th in terms of 
   </Box>
   <Box>
     Kelly Tshibaka was born to Bill and Michele Hartline, an electrician and oil worker respectively. She earned a B.A. from Texas A&M in 1999 and a law degree from Harvard in 2002. She has worked as commissioner of the Alaskan Department of Administration, special assistant to the Department of Justice's Inspector General, acting inspector general at the Federal Trade Commission, and assistant inspector general and chief data officer at the United States Postal Service
+  </Box>
 
   <Header>
     #### Primaries

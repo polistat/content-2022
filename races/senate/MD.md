@@ -47,8 +47,6 @@ In 2021, 49% of residents of Maryland identified as White/non-hispanic. 11.1% id
   </Header>
   <Box>
     - [Van Hollen Twitter Ad](https://i.ibb.co/vwPn6v0/download-9.png)
-  </Box>
-  <Box>
     - [Van Hollen Campaign Website](https://www.vanhollen.senate.gov/)
   </Box>
   <Box>
