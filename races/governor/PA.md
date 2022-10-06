@@ -29,6 +29,7 @@ Pennsylvania is the 5th most populated state containing significant cities such 
   </Header>
   <Box>
     Josh Shapiro was uncontested in the Democratic primaries. He was shown an overwhelmingly large amount of funding and support from organizations and individuals alike, including the incumbent Tom Wolf, which may have contributed heavily to his lack of competition. 
+  </Box>
   <Box>
     Doug Mastriano was dominant in the Republican primaries, beating out Lou Barletta, Bill McSwain, David White, and several others. Big topics of discussion included tax reform and gas usage. However, Mastriano was triumphant, partially due to former President Donald Trump's endorsement. Over the course of the primaries, more than half of the candidates withdrew their candidacy. Many issues arose surrounding Mastriano's chances of winning as a result of his involvement in the January 6th raid on the capital, but he pulled through with approximately double the points of the runner up, Lou Barletta. 
   </Box>

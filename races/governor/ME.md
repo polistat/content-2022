@@ -18,7 +18,7 @@ In 2021, 92.5% of residents of Maine identified as White/non-hispanic. 2% identi
   </Box>
 
   <Box>
-	Janet T. Mills was the first female governor of Maine. Before being elected for governor in 2018, she served on the Maine House of Representatives.    </Box>
+	Janet T. Mills was the first female governor of Maine. Before being elected for governor in 2018, she served on the Maine House of Representatives.
   <Box>
 	Paul LePage served as the Maine governor prior to Mills, from 2011 to 2019 when Mills took office. If he is elected, he will become the longest serving Maine governor. During his previous time serving as governor, he made use of his veto power 652 times. This is more than the combined number vetoed by the past 100 years of Maine governors. 
   </Box>

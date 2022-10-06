@@ -22,6 +22,7 @@ Oklahoma is a notoriously red state with deep roots in Conservatism and ties to 
   </Box>
   <Box>
     Incumbent governor Kevin Stitt is attempting to be reelected to be Oklahoma governor for his second term. Kevin Stitt is from the Cherokee nation in Oklahoma and graduated from Oklahoma State University with a degree in Accounting. He founded Gateway Mortgage Bank in 2000 and grew the company to over $20 billion in profits; he stepped down from being CEO/Chairman in 2018.
+  </Box>
 
   <Header>
     #### Primaries

@@ -11,10 +11,7 @@ party. South Dakota is 87.4% white, and has a population of 895,376 as of 2021.
 <Grid>
   <Box>
     ### Jamie Smith (D)
-    <!--This is the best I could do - Kenny-->
     ![Image of Jamie Smith](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jamie-Smith.PNG)
-    <!--I might be having the "wikimedia link in a markdown document" problem
-    here, double check in your markdown parser - Kenny-->
     *Source: [Ballotpedia](https://ballotpedia.org/Jamie_Smith_(South_Dakota))*
   </Box>
   <Box>

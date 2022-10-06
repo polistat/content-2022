@@ -21,7 +21,7 @@ STATE DESCRIPTION
     Tony Evers is a Democrat serving as the 46th governor of Wisconsin and is also an avid bobblehead collector. He is currently 70 years old and from 2009 to 2019 served as the Superintendent of Public Instruction for Wisconsin. He ran a successful campaign against the republican incumbent Scott Walker in order to be elected as Wisconsin governor in 2018.
   </Box>
   <Box>
-    Tim Michels is the Republican candidate for Wisconsin governor. He served in the US Army for 12 years as an infantry officer and obtained the rank of major. He also co-owns Michels Corporation, a construction company. He has faced criticism for using obscure LLCs to purchase his homes, yet is also an active philanthropist.   </Box>
+    Tim Michels is the Republican candidate for Wisconsin governor. He served in the US Army for 12 years as an infantry officer and obtained the rank of major. He also co-owns Michels Corporation, a construction company. He has faced criticism for using obscure LLCs to purchase his homes, yet is also an active philanthropist.
   </Box>
   <Header>
     #### Primaries
@@ -38,7 +38,7 @@ STATE DESCRIPTION
   </Header>
 
   <WideBox>
-    Tony Evers has campaigned on a platform of improving Wisconsin schools and infrastructure in general. He also wants to ensure access to health care and combat inflation. Meanwhile, Tim Michels’s campaign has mostly focused on his identity as a political outsider, but some of his issues have been limiting abortions, expanding the police force, and upset the current balance of Wisconsin politics through his position as an outsider.   </WideBox>
+    Tony Evers has campaigned on a platform of improving Wisconsin schools and infrastructure in general. He also wants to ensure access to health care and combat inflation. Meanwhile, Tim Michels’s campaign has mostly focused on his identity as a political outsider, but some of his issues have been limiting abortions, expanding the police force, and upset the current balance of Wisconsin politics through his position as an outsider.
   </WideBox>
   <Header>
     #### Campaign ads
