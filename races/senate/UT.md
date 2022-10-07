@@ -7,13 +7,13 @@ With a population of three million, Utah is the 30th most populous state. Urban 
 
 <Grid>
   <Box>
-    ### Evan McMullin (D)
-    ![Image of DEMOCRATIC CANDIDATE](https://ichef.bbci.co.uk/news/651/cpsprodpb/2B7B/production/_90713111_evanmcmullin.jpg)
+    ### Evan McMullin (I)
+    ![Image of Evan McMullin](https://ichef.bbci.co.uk/news/651/cpsprodpb/2B7B/production/_90713111_evanmcmullin.jpg)
     *Source: [BBC](https://www.bbc.com/news/election-us-2016-37012626)*
   </Box>
   <Box>
     ### Mike Lee (R)
-    ![Image of REPUBLICAN CANDIDATE](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mike_Lee%2C_official_portrait.jpg/220px-Mike_Lee%2C_official_portrait.jpg)
+    ![Image of Mike Lee](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mike_Lee%2C_official_portrait.jpg/220px-Mike_Lee%2C_official_portrait.jpg)
     *Source: [Wikipedia](https://en.wikipedia.org/wiki/Mike_Lee)*
   </Box>
 
