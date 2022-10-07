@@ -9,4 +9,4 @@ Over the course of the next month until election day, this space will be used to
 For now, check out our forecasts and learn more about our model's methodology!
 - [Senate Forecast](/senate)
 - [Governor Forecast](/governors)
-- [Methodology](/governors)
+- [Methodology](/methodology)
