@@ -1,5 +1,6 @@
 ## About Arizona
 Arizona has three main regions being the northwestern Colorado Plateau, a transition mountainous region, and the southern basin, where most major cities reside. Being on the border, Arizona has an incredibly high proportion of Hispanics, nearly 31.7%.
+
 ---
 
 ## Candidates
