@@ -1,5 +1,5 @@
 ## About Ohio
-Ohio is a constituent state on the northeastern edge of the Midwest.
+Ohio is a constituent state on the northeastern edge of the Midwest. Its Southern portions contain some of Appalachia.
 
 ---
 

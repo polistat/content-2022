@@ -1,5 +1,6 @@
 ## About New Hampshire
 New Hampshire is a state in New England, with a combination of wilderness and a townlife. Nearby law Mt. Washington, the White Mountains, and the Appalachian Trail. It's a tiny state, as it's the fifth smallest by area and tenth smallest by population.
+
 ---
 
 ## Candidates
