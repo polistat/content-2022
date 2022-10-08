@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Massachusetts
 The current incumbent, Charlie Baker, has served two terms and is not seeking re-election. The two nominated candidates are Geoff Diehl (R) and Maura Healey (D). 
 
 ---

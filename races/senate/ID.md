@@ -1,5 +1,5 @@
 ## About Idaho
-Idaho is a northwestern U.S. state known for mountainous landscapes, and vast swaths of protected wilderness and outdoor recreation areas. The State is a primarly red state having a purely republican senate since 1981. Idaho has a multitude of problesm ranging from poor mental health care to a terrible education system. The goal of these canidates is to improve the living situation in their state.
+Idaho is a northwestern U.S. state known for mountainous landscapes, and vast swaths of protected wilderness and outdoor recreation areas. The state is a primarly red state, having a purely Republican senate since 1981. Idaho has a multitude of problems ranging from poor mental health care to a terrible education system. The goal of these candidates is to improve the living situation in their state.
 
 ---
 
@@ -28,10 +28,10 @@ Idaho is a northwestern U.S. state known for mountainous landscapes, and vast sw
     #### Primaries
   </Header>
   <Box>
-    Two canidadtes, by which David Roth won with 57.8%
+    Two candidates, by which David Roth won with 57.8%
   </Box>
   <Box>
-    Five canidadtes, by which Mike Crapo won with 67.1%
+    Five candidates, by which Mike Crapo won with 67.1%
   </Box>
 
   <Header>
@@ -39,7 +39,7 @@ Idaho is a northwestern U.S. state known for mountainous landscapes, and vast sw
   </Header>
 
   <WideBox>
-    Education is a big concern for Roth as he wants to provide more support and increase investments in the schools of Idaho. Crapo wants to tackle the education problem by supporting more state and local decision making authorities when it comes to education. Roth wants to prioritize things like making expensive prescription drugs cheaper  and improving the poor coverage of mental health services. Crapo’s focus is providing affordable quality care to all citizens of idaho. 
+    Education is a big concern for Roth as he wants to provide more support and increase investments in the schools of Idaho. Crapo wants to tackle the education problem by supporting more state and local decision making authorities when it comes to education. Roth wants to prioritize things like making expensive prescription drugs cheaper and improving the poor coverage of mental health services. Crapo’s focus is providing affordable quality care to all citizens of idaho. 
   </WideBox>
  
   <Header>
