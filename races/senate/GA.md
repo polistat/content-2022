@@ -49,6 +49,6 @@ On February 5, 1958, during a training mission flown by a B-47, a Mark 15 nuclea
     - [Warnock Knows](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjTlJn9k8X6AhXNGFkFHXHsBkgQwqsBegQIBBAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnqEb2w-fhio&usg=AOvVaw3tjaV5W6hYbtL9LEj1UdPs)
   </Box>
   <Box>
-    - [Uhhh...](https://www.youtube.com/watch?v=zlgmoE0yGMA)
+    - [Herschel Walker ads ran out of funding](https://www.youtube.com/watch?v=zlgmoE0yGMA)
   </Box>
 </Grid>

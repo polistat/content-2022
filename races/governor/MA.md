@@ -1,5 +1,7 @@
 ## About Massachusetts
+Historically, Massachusetts has consistently leaned liberal and voted Democratic. Compared to other states in the surrounding New England area, Massachusetts is generally more diverse. It was also the first state to legalize same-sex marriage. Their economy today mostly depends on technology research and tourism. With a GDP per capita of nearly $100,000, third highest in the nation, Massachusetts economically speaking is pretty well off.
 The current incumbent, Charlie Baker, has served two terms and is not seeking re-election. The two nominated candidates are Geoff Diehl (R) and Maura Healey (D). 
+
 
 ---
 
