@@ -27,9 +27,9 @@ Alaska is a state in the North Western region of the United States. It has been 
   <Header>
     #### Primaries
   </Header>
-  <Box>
+  <WideBox>
     The Alaska primary is one of the only Jungle Primaries in the country. In 2020, voters decided to adopt Ballot Measure 2, which restructures some campaign finance laws and also enacts the jungle primary and ranked choice voting. This makes Alaska's electoral system unique compared to other states. In the primaries, Mike Dunleavy won 40 percent of the vote, Les Gara and Bill Walker won 23 percent each, and Charlie Pierce won 6%. The 4 candidates advanced to the general election, with Pierce being the second republican candidate and Walker being an independent. Individual polls suggest that between two candidates either Walker or Gara would have a fighting chance against Dunleavy, but as a result of the polycandidate general election, the split support for the democrat and independent puts Dunleavy at an advantage.   
-  </Box>
+  </WideBox>
 
   <Header>
     #### Issues & controversies

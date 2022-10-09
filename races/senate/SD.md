@@ -8,12 +8,12 @@ STATE DESCRIPTION
 <Grid>
   <Box>
     ### Brian Bengs (D)
-    ![Image of Brian Bengs](https://www.google.com/imgres?imgurl=https%3A%2F%2Fbengsforsenate.com%2Fwp-content%2Fuploads%2F2022%2F02%2Fbrian-bengs-military-portrait.jpg&imgrefurl=https%3A%2F%2Fbengsforsenate.com%2Fmeet-brian-bengs%2F&tbnid=r_eGUy1gUMtVDM&vet=12ahUKEwj4gLOk98f6AhVsEGIAHTRhCo8QMygBegUIARCHAQ..i&docid=rOX7VdmGjEsDfM&w=950&h=1054&q=brian%20bengs&ved=2ahUKEwj4gLOk98f6AhVsEGIAHTRhCo8QMygBegUIARCHAQ)
+    ![Image of Brian Bengs](https://bengsforsenate.com/wp-content/uploads/2022/02/brian-bengs-military-portrait.jpg)
     *Source: [Bengs for U.S. Senate](https://bengsforsenate.com/meet-brian-bengs/)*
   </Box>
   <Box>
     ### John Thune (R)
-    ![Image of John Thune](https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.nationbuilder.com%2Fthune%2Fpages%2F1390%2Fattachments%2Foriginal%2F1618941840%2Fhero-2021-bg-m-1.jpg%3F1618941840&imgrefurl=https%3A%2F%2Fwww.johnthune.com%2F&tbnid=V5WzjozxfLUVXM&vet=12ahUKEwil6PDm98f6AhXgsXIEHXrsDBIQMygDegUIARDnAQ..i&docid=mD1l1HY15TNv7M&w=972&h=917&q=john%20thune&ved=2ahUKEwil6PDm98f6AhXgsXIEHXrsDBIQMygDegUIARDnAQ)
+    ![Image of John Thune](https://assets.nationbuilder.com/thune/pages/1390/attachments/original/1618941840/hero-2021-bg-m-1.jpg?1618941840)
     *Source: [John Thune](https://www.johnthune.com/)*
   </Box>
 

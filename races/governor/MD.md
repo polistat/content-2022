@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Maryland
 STATE DESCRIPTION
 
 ---
@@ -13,7 +13,7 @@ STATE DESCRIPTION
   </Box>
   <Box>
     ### Dan Cox (R)
-    ![Image of Dan Cox](hhttps://npr.brightspotcdn.com/dims4/default/b2fbd8c/2147483647/strip/true/crop/840x472+0+104/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2Fd3%2F083ab028482a9bee1346aece54d4%2Fdancox-widecrop.png)
+    ![Image of Dan Cox](https://npr.brightspotcdn.com/dims4/default/b2fbd8c/2147483647/strip/true/crop/840x472+0+104/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2Fd3%2F083ab028482a9bee1346aece54d4%2Fdancox-widecrop.png)
     *Source: [WYPR](https://www.wypr.org/show/midday/2022-03-01/delegate-dan-cox-a-republican-candidate-for-maryland-governor)*
   </Box>
 

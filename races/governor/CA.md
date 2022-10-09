@@ -8,7 +8,7 @@ Spanning much of the west coast of the continental United States, California is 
 <Grid>
   <Box>
     ### Gavin Newsom (D)
-    ![Image of Gavin Newsom](https://www.google.com/url?sa=i&url=https%3A%2F%2Fballotpedia.org%2FGavin_Newsom&psig=AOvVaw2eCdXJ-9u3Uz5MPfDBLRQr&ust=1664024983557000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCPCSv6L-qvoCFQAAAAAdAAAAABAH)
+    ![Image of Gavin Newsom](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/399px-Gavin_Newsom_official_photo.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Gavin_Newsom)*
   </Box>
   <Box>

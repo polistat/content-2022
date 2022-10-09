@@ -27,9 +27,9 @@ Alaska, while being the largest state by area in the Union, is 48th in terms of 
   <Header>
     #### Primaries
   </Header>
-  <Box>
-     The winner of the primary with 45% of the vote was incumbent Lisa Murkowski, a Trump-opposed moderate republican, with the runner up with 39% of the vote being Kelly Tshibaka, a pro-Trump populist republican.The Democrat, Patricia Chesbro, lagged behind in a distant third place with 7% of the vote.
-  </Box>
+  <WideBox>
+    The winner of the primary with 45% of the vote was incumbent Lisa Murkowski, a Trump-opposed moderate republican, with the runner up with 39% of the vote being Kelly Tshibaka, a pro-Trump populist republican. The Democrat, Patricia Chesbro, lagged behind in a distant third place with 7% of the vote.
+  </WideBox>
 
   <Header>
     #### Issues & controversies

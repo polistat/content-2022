@@ -1,5 +1,6 @@
 ## About Nebraska
 A midwestern U.S. state encompassing the prairies of the Great Plains, the towering dunes of the Sandhills and the panhandle’s dramatic rock formations
+
 ---
 
 ## Candidates
@@ -7,12 +8,12 @@ A midwestern U.S. state encompassing the prairies of the Great Plains, the tower
 <Grid>
   <Box>
     ### Bob Krist (D)
-    ![Image of Bob Krist](https://www.google.com/search?q=bob+krist+nebraska&sxsrf=ALiCzsapVtQJ2bhJsZPlcb93CnpSggXdrw:1664469085062&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi_3LfEtrr6AhW-FVkFHbcVDUoQ_AUoAnoECAMQBA&biw=1440&bih=680&dpr=2#imgrc=HLQjhin2PMUrAM)
+    ![Image of Bob Krist](https://upload.wikimedia.org/wikipedia/commons/2/2d/Bob_Krist_photo.jpg)
     *Source: [Wikipedia](wikipedia.com)*
   </Box>
   <Box>
     ### Pete Rickett (R)
-    ![Image of Pete Rickett](GOOGLE URL TO REPUBLICAN CANDIDATES PICTURE)
+    ![Image of Pete Rickett](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pete_Ricketts_by_Gage_Skidmore.jpg/220px-Pete_Ricketts_by_Gage_Skidmore.jpg)
     *Source: [Wikipedia](wikipedia.com)*
   </Box>
 

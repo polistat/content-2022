@@ -8,12 +8,12 @@ Incumbent Republican Kim Reynolds is running for reelection against Democrat Dei
 <Grid>
   <Box>
     ### Deidre Dejear (D)
-    ![Image of Deidre Dejear]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Deidre-DeJear.PNG
+    ![Image of Deidre Dejear](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Deidre-DeJear.PNG)
     *Source: [Ballotpedia]https://ballotpedia.org/Deidre_DeJear*
   </Box>
   <Box>
     ### REPUBLICAN CANDIDATE (R)
-    ![Image of Kim Reynolds]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kim_Reynolds_2013.jpg
+    ![Image of Kim Reynolds](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kim_Reynolds_2013.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Kim_Reynolds)*
   </Box>
 
@@ -47,9 +47,9 @@ Incumbent Republican Kim Reynolds is running for reelection against Democrat Dei
     #### Campaign ads
   </Header>
   <Box>
-    - [Today - Ryan Reynolds]https://www.youtube.com/watch?v=ewU1T8ljW-c
+    - [Today - Ryan Reynolds](https://www.youtube.com/watch?v=ewU1T8ljW-c)
   </Box>
   <Box>
-    - [Deidre DeJear for Governor Campaign Launch]https://www.youtube.com/watch?v=ewU1T8ljW-c
+    - [Deidre DeJear for Governor Campaign Launch](https://www.youtube.com/watch?v=HS0s_3AlMZE)
   </Box>
 </Grid>

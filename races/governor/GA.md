@@ -39,19 +39,21 @@ Georgia is a state in the Southeastern region of the United States. It is known 
   </Header>
 
   <WideBox>
-  Economy:
+  *Economy:*
 
 Kemp proposes the $1 Billion Tax Rebate, which will return money to Georgians, and the Georgia Homeowner Rebate, which will save the average homeowner in Georgia between 15 and 25 percent on their local property tax bill next year. 
 
 Abrams wants to create an earned income tax credit for Georgia, increase disability protections, close the skills gap and increase apprenticeships, and invest heavily in small business financing programs. 
 
-Education: 
+
+*Education:*
 
 Kemp will focus on addressing learning loss caused by the COVID-19 pandemic by proposing $25 million for a Learning Loss Opportunity Scholarship Grant. He will also work on increasing the educator and school counselor workforce by starting a grant program that will help people with the certification costs of becoming a teacher.
 
 Abrams says that as governor she will raise the statewide minimum teacher wage by more than $10k. She will also work on increasing the number of teachers entering the profession by developing new teacher preparation programs to expand access to teaching. 
 
-Gun Policies:
+
+*Gun Policies:*
 
 As governor, Kemp signed a law allowing Georgians to carry handguns in public without a license or background check.
 

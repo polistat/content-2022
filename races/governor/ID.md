@@ -18,7 +18,6 @@ Idaho is a northwestern state known for mountainous landscapes and protected wil
     *Source: [Idaho.gov](https://gov.idaho.gov/wp-content/uploads/2019/02/governor-brad-little.jpg)*
   </Box>
 
-{" "}
 <Box>
   Stephen Heidt is a teacher working in Idaho's prison system, with no prior
   political experience. Heidt earned a bachelor's degree in political science
@@ -32,17 +31,21 @@ Idaho is a northwestern state known for mountainous landscapes and protected wil
   agribusiness from the University of Idaho in 1977 and is a former governor.
 </Box>
 
-{" "}
-<Header>#### Primaries</Header>
+<Header>
+  #### Primaries
+</Header>
 <Box>
   Stephen Heidt ran unopposed for the Democratic ticket. However, he garnered
   only 66% of the vote, with a substantial portion of voters choosing write-in
   candidates.
 </Box>
-<Box>Little handily defeated Trump-backed Lieutenant Governor Janice McGeachin in the Republican primary, garnering 60.9% of the vote.</Box>
+<Box>
+  Little handily defeated Trump-backed Lieutenant Governor Janice McGeachin in the Republican primary, garnering 60.9% of the vote.
+</Box>
 
-{" "}
-<Header>#### Issues & controversies</Header>
+<Header>
+  #### Issues & controversies
+</Header>
 
   <WideBox>
     Both candidates chose platforms that reflect the traditional values of their respective party. Little boasts about his track record of deregulation and promises to bring law and order to stop a recent rise in drugs. He is not endorsed by Trump. Heidt supports the legalization of marijuana, increased healthcare programs, and has recently begun talking more about abortion rights. There are no consequential third-parties.

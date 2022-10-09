@@ -31,7 +31,7 @@ Vermont is the second least-populous state in the US, located in the very northe
     Brenda Siegel ran unopposed in the democratic primary apart from write-ins.
   </Box>
   <Box>
-    Phil scott has been the incumbent for the past five years, with no real challengers running against him in the Republican primary.
+    Phil Scott has been the incumbent for the past five years, with no real challengers running against him in the Republican primary.
   </Box>
 
   <Header>

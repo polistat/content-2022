@@ -1,4 +1,4 @@
-## About Arizona
+## About Iowa
 Bordered by both the Mississippi River and the Missouri River, Iowa is home to over 3.15 million people. Approximately 89% of Iowa’s population are White, almost 4% are Black, and 2.5% are Asian, with the rest of the population being mixed or of other races. 92% of the state’s 25 year old and older population have graduated High School, and 29% of the state’s 25 year old and older population have a Bachelor’s degree or higher. A large percentage of the state is educated, contributing to the reason that Iowa has the highest literacy rate of any state.
 
 ---
@@ -8,13 +8,13 @@ Bordered by both the Mississippi River and the Missouri River, Iowa is home to o
 <Grid>
   <Box>
     ### Chuck Grassley (R)
-    ![Image of Chuck Grassley](https://cdn.mos.cms.futurecdn.net/8FCtVBUjbUszYpVAhnY72h-970-80.jpg.webp
-    *Source: [Space.com](https://www.forbes.com/sites/craighooper/2020/05/26/iowas-senate-primary-will-decide-democratic-national-security-leadership-in-the-senate/?sh=622f0a6416b3)*
+    ![Image of Chuck Grassley](https://www.judiciary.senate.gov/imo/media/image/GrassleyOfficialPhoto.jpg)
+    *Source: [judiciary.senate.gov](https://www.judiciary.senate.gov/about/ranking)*
   </Box>
   <Box>
     ### Michael Franken (D)
-    !![Image of Michael Franken](https://imageio.forbes.com/specials-images/imageserve/5ecc94f5033f0f0007c9837f/Mike-Franken/960x0.jpg?format=jpg&width=960)
-    *Source: [Politico](https://www.judiciary.senate.gov/about/ranking)*
+    ![Image of Michael Franken](https://imageio.forbes.com/specials-images/imageserve/5ecc94f5033f0f0007c9837f/Mike-Franken/960x0.jpg?format=jpg&width=960)
+    *Source: [Forbes](https://www.forbes.com/sites/craighooper/2020/05/26/iowas-senate-primary-will-decide-democratic-national-security-leadership-in-the-senate/?sh=25ea553416b3)*
   </Box>
 
   <Box>

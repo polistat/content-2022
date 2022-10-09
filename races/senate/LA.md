@@ -57,9 +57,6 @@ Louisiana is a state in the southern region of the United States. A large portio
     - [Luke Mixon](https://www.youtube.com/watch?v=XWU8zRH1pwQ)
   </Box>
   <Box>
-    - [Gary Chambers](https://www.youtube.com/watch?v=Qj_FD25oREY&ab_channel=GaryChambersJr)
-  </Box>
-  <Box>
     - [John Neely Kennedy](https://www.youtube.com/watch?v=Bo7KiU_8W1Y&ab_channel=JohnKennedy )
   </Box>
 </Grid>

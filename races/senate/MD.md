@@ -1,4 +1,4 @@
-## About Maryland Senate
+## About Maryland
 In 2021, 49% of residents of Maryland identified as White/non-hispanic. 11.1% identified as Hispanic/Latino, 30.2% identified as Black, 6.8% identified as Asian, 0.2% as Native Hawaiian and Other Pacific Islander, and 2.6% as multiracial. As for political leanings, 55% identified as Democratic/Democratic leaning, 31% identified as Republican/Republican leaning, and 14% identified as no leaning. The candidates for the Maryland US Senate general election are incumbent Chris Van Hollen, who won the position since 2017, Chris Chaffee, and write-in candidate Scottie Griffin. 
 
 ---

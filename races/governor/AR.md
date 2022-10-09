@@ -9,12 +9,12 @@ Arkansas is a landlocked state in the South Central United States, bordered by M
   <Box>
     ### Chris Jones (D)
     ![Image of Chris Jones](https://www.armoneyandpolitics.com/wp-content/uploads/2019/10/dr-chris-jones.jpg)
-    *Source: [Courtesy of Arkansas Money and Politics](www.armoneyandpolitics.com)*
+    *Source: [Arkansas Money and Politics](www.armoneyandpolitics.com)*
   </Box>
   <Box>
     ### Sarah Sanders (R)
-    ![Image of Sarah Sanders](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders#/media/File:Sarah_Sanders_(49290685006)_(cropped).jpg)
-    *Source: [Courtesy of Wikipedia](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders)*
+    ![Image of Sarah Sanders](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sarah_Sanders_%2849290685006%29_%28cropped%29.jpg/800px-Sarah_Sanders_%2849290685006%29_%28cropped%29.jpg)
+    *Source: [Wikipedia](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders)*
   </Box>
 
   <Box>
