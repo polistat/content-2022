@@ -1,5 +1,5 @@
 ## About Arkansas
-Arkansas is a very cool state.
+Arkansas is a landlocked state in the South Central United States, bordered by Missouri in the North, Tennessee and Mississipi in the East, and Texas and Oklahoma to the west. Arkansas is comprised of a mostly non-Hispanic white population, with this demographic describing 72.0% of the residents in Arkansas. It is also part of the Bible Belt and predominantly Protestant with 79% of its total population identifying as Christian. 
 
 ---
 
@@ -13,7 +13,7 @@ Arkansas is a very cool state.
   </Box>
   <Box>
     ### Sarah Sanders (R)
-    ![Image of Sarah Sanders](https://upload.wikimedia.org/wikipedia/commons/f/ff/Sarah_Sanders_%2849290685006%29_%28cropped%29.jpg)
+    ![Image of Sarah Sanders](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders#/media/File:Sarah_Sanders_(49290685006)_(cropped).jpg)
     *Source: [Courtesy of Wikipedia](https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders)*
   </Box>
 

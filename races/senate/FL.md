@@ -1,5 +1,6 @@
 ## About Florida
-Florida is a very cool state.
+Florida is a peninsula in the South Eastern United States, bordered by Georgia and Alabama in the north. Florida is estimated to be comprised of a mostly non-Hispanic white population, with this demographic describing 76.9% of the residents in Florida. At the endpoint of the so-called Bible Belt, it's estimated that 70% of Floridians identify as Christian.
+
 
 ---
 
