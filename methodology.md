@@ -3,19 +3,24 @@ title: "Methodology"
 description: "How ORACLE of Blair's senate and governor models work"
 ---
 
+> [View this page in a PDF format](/Methodology.pdf)
+
 ## About
+---
 The ORACLE (Overall Results of an Analytical Consideration of the Looming Elections) of Blair is an election model developed entirely by senior students at Montgomery Blair High School in Silver Spring, Maryland. Under the supervision of Mr. David Stein, we created this model during the fall semester to predict the outcomes of the upcoming 2022 Senate and Gubernatorial elections. This is the fourth iteration of election modeling at Blair; previous classes have also developed the Oracle to forecast the 2016 presidential election, 2018 congressional elections, and 2020 presidential election. 
 
 In the spirit of transparency and education, we describe in detail exactly how we came up with all of the numbers in our simulation. You can read about our reasoning and methods for constructing the model in the following sections. All of the decisions in creating this model were made by the students in the class, and we take full responsibility for this model's methods and predictions. If you are interested in politics, statistics, education, or our model, please consider spreading the word about the work that we've done.
 
 
 ## Overview
+---
 All of our calculations in this model are based on the two-party vote percentage, which represents the ratio of votes cast for the Democratic candidate to the total votes cast for either the Republican candidate or the Democratic candidate. The two-party vote percentage differs from the actual vote percentage as votes cast for a third-party or an independent candidate are not counted. Positive margins favor the Democratic Party, while negative margins favor the Republican Party.
 
 All of the polls that we use in this model are taken from [FiveThirtyEight](https://projects.fivethirtyeight.com/polls/), a website owned by ABC News that provides data-driven political news and analysis. It was created in 2008 as a polling aggregation website and blog by analyst Nate Silver.
 
 
 ## Priors
+---
 
 ### Blair Partisan Index (BPI)
 A state's historic voting tendencies can give us important insight into their future voting behavior. The Blair Partisan Index (BPI) is a metric we use to quantify how a state has voted in past elections. We calculate BPI by taking the weighted average of the two-party vote percentage earned by the Democratic candidate in the following elections, according to these respective weights:
@@ -125,6 +130,7 @@ BABOON (BPI and Bigmood On Our Network) is our method for combining our BPI valu
 
 
 ## Averaging polls
+---
 Polling data is a valuable predictor of people’s future voting behavior. In our model, we only include polls that earned at least a C- grade on FiveThirtyEight and have no more than 1 Democratic and 1 Republican candidate with the exception of Alaska. In the case of Alaska we categorized any candidate other than the top Democratic and Republican candidates as third-party candidates. Similar to Bigmood, we weight the polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
 
 <Center>
@@ -147,6 +153,7 @@ where <Math inline>{"`sigma^2`"}</Math> is the sampling variance of each poll.
 
 
 ## Lean
+---
 To combine our polling average with BABOON into a single estimate for each race, we take a weighted average of the two values. In a world where we are given an infinite number of polls for a race, the vast majority of our estimate should come from the polling averages. Thus we chose the arctangent function to calculate the weight <Math inline>{"`w`"}</Math> for the polling average so that as the number of polls approaches infinity, the polling average comprises 95% of our estimate. The weight is calculated by
 
 <Center>
@@ -161,6 +168,7 @@ where <Math inline>{"`n_30`"}</Math> and <Math inline>{"`n`"}</Math> are the num
 
 
 ## Variance
+---
 There are many sources of uncertainty in our model. To calculate the overall variance, we begin by finding the weighted sampling variance of the polls and then adding additional variance based on two factors: the number of undecided voters for each race (VIBE) and how wrong a state’s polling predictions have been historically (GOOFI).
 
 ### Variance of Indecisive Ballot Electors (VIBE)
@@ -228,6 +236,7 @@ simplifies to the independent case of
 
 
 ## Correlation
+---
 The leans we have now are naive predictions for the outcomes of each race. There is a chance that our predictions are wrong, and if our predictions are wrong for one state, they should be similarly wrong for states with similar demographics. Thus, we must correlate our predictions for states with similar demographics. The demographics of importance that we have decided are:
 
 - the percentage of Black residents
@@ -294,4 +303,5 @@ Therefore the estimated Democratic vote percentage for state <Math inline>{"`S`"
 
 
 ## Simulation
+---
 Now that we have a estimated vote percentage and variance for each race, we can now obtain the final prediction for the Democratic two-party vote percentage by taking a random value from the normal distribution <Math inline>{"`p ~ mathcal{N}(mu, sigma^2)`"}</Math>. Each iteration of our model, we find a random value <Math inline>{"`p`"}</Math> for each race. The win probability of each race is calculated by the percentage of the time that the Democratic candidate won that race. The probability of winning the Senate is calculated by the percentage of the time that the Democratic party was able to secure enough seats to control 50 seats in the Senate. Each run of our model runs one million iterations and the results are displayed on [our website](/). The implementation of our model can be found [here](https://github.com/polistat).
