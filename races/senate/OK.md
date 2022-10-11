@@ -1,5 +1,5 @@
 ## About Oklahoma
-Senator Jim Inholfe announced planned resignation at the end of the 117th US Congress, meaning Oklahoma is holding a special election to fill the remaining four years of his term on top of the regular election. For the regular election, the incumbent Republican James Lankford is running against Democrat Madison Horn, with Libertarian Kenneth Blevins and independent Michael Delaney also participating.
+Oklahoma is a notoriously red state with deep roots in Conservatism and ties to the Republican party. Senator Jim Inholfe announced planned resignation at the end of the 117th US Congress, meaning Oklahoma is holding a special election to fill the remaining four years of his term on top of the regular election. For the regular election, the incumbent Republican James Lankford is running against Democrat Madison Horn, with Libertarian Kenneth Blevins and independent Michael Delaney also participating.
 
 ---
 
