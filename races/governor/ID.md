@@ -1,6 +1,5 @@
 ## About Idaho
-
-Idaho is a northwestern state known for mountainous landscapes and protected wilderness. It's an important agricultural state, producing nearly one-third of the potatoes grown in the United States.
+Idaho is a northwestern U.S. state known for mountainous landscapes, and vast swaths of protected wilderness and outdoor recreation areas. It's an important agricultural state, producing nearly one-third of the potatoes grown in the United States. The state is a primarly red state, having a purely Republican senate since 1981. Idaho has a multitude of problems ranging from poor mental health care to a flawed education system. The goal of these candidates is to improve the living situation in their state.
 
 ---
 
