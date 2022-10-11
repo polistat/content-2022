@@ -40,9 +40,9 @@ Hawaii is a group of volcanic islands in the central Pacific Ocean, becoming the
   </Header>
 
   <WideBox>
-    Gun control: Schatz supports banning military-style weapons and universal background checks. McDermott believes nothing needs to be done.
-Climate: Schatz believes investment in clean energy and cutting carbon pollution will help mitigate a climate crisis. McDermott uses clean energy, but does not think there will be a crisis in the future regarding climate change.
-Red Hill: Red Hill is a military fuel storage facility. In 2021, two fuel leaks from the site contaminated the local water supply, affecting nearly 100,000 Hawaiians. On this issue, both candidates agree that the facility needs to be decommissioned.
+    - **Gun Control**: Schatz supports banning military-style weapons and universal background checks. McDermott believes nothing needs to be done.
+- **Climate**: Schatz believes investment in clean energy and cutting carbon pollution will help mitigate a climate crisis. McDermott uses clean energy, but does not think there will be a crisis in the future regarding climate change.
+- **Red Hill**: Red Hill is a military fuel storage facility. In 2021, two fuel leaks from the site contaminated the local water supply, affecting nearly 100,000 Hawaiians. On this issue, both candidates agree that the facility needs to be decommissioned.
   </WideBox>
  
   <Header>
