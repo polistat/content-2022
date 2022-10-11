@@ -1,5 +1,5 @@
 ## About New York
-One of the more populous states, New York is known for its simultaneously idyllic landscapes and its financial background.
+New York is situated on the East Coast, with water covering 36.4% of its surface area. It contains New York City, the most populous city in the United States, and home to the highest number of billionaires of any city in the world.
 
 ---
 
