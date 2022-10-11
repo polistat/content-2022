@@ -1,8 +1,5 @@
 ## About South Dakota
-South Dakota is a mostly rural state that has consistently voted Republican,
-with Republican presidential nominees carrying the state in the last 13
-elections. The state government is also largely controlled by the Republican
-party. South Dakota is 87.4% white, and has a population of 895,376 as of 2021.
+South Dakota is a mostly rural state that has consistently voted Republican, with Republican presidential nominees carrying the state in the last 13 elections. The state government is also largely controlled by the Republican party. South Dakota is 87.4% white, and has a population of 895,376 as of 2021. 8.5% of residents are Native American. Currently the Republican party is dominant in South Dakota. 
 
 ---
 
