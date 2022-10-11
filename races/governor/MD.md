@@ -1,5 +1,5 @@
 ## About Maryland
-STATE DESCRIPTION
+Maryland is a Mid-Atlantic bordering both the Atlantic Ocean and Chespeake Bay. Typically it is a very Democratic State, however, its previous governor, Larry Hogan, was a Republican. 
 
 ---
 
@@ -27,10 +27,10 @@ STATE DESCRIPTION
     #### Primaries
   </Header>
   <Box>
-    DEMOCRATIC PRIMARY INFO
+    The Democratic primary was very contested, featuring ten candidates. The three frontrunners were Wes Moore, Tom Perez, and Peter Franchot. Wes Moore won with 33.8% of the vote. 
   </Box>
   <Box>
-    REPUBLICAN PRIMARY INFO
+    The Republican primary was less competitive with only four candidates and two frontrunners, Dan Cox and Kelly Schulz. Kelly Schulz was a cabinate member of previous governor Larry Hogan. 
   </Box>
 
   <Header>

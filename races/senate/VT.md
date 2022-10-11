@@ -1,5 +1,5 @@
 ## About Vermont
-STATE DESCRIPTION
+Vermont is a rural New England state. In recent years it has also typically support the Democratic party with the exception of its Republican governor. Over 90% of its 650,000 residents are white. 38% of its residents are college educated. 
 
 ---
 
@@ -28,10 +28,10 @@ STATE DESCRIPTION
     #### Primaries
   </Header>
   <Box>
-    DEMOCRATIC PRIMARY INFO
+    Peter Welch had a relatively uncontested primary, receiving almost 90% of the vote. This is after incumbent Patrick Leahy decided to retire instead of seeking reelection.
   </Box>
   <Box>
-    REPUBLICAN PRIMARY INFO
+    The Republican primary was significantly more contested. Gerald Malloy only won with 43% of the vote, beating out the second place Christan Nolan who had 38% of the vote. 
   </Box>
 
   <Header>

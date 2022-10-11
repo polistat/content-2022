@@ -34,9 +34,6 @@ A state's historic voting tendencies can give us important insight into their fu
       </tr>
     </thead>
     <tbody className="">
-      <tr>
-        <td className="px-5 py-1.5 border-y">2014 House</td>
-        <td className="px-5 py-1.5 border-y"><Math inline>{"`0.0435`"}</Math></td>
       </tr>
       <tr>
         <td className="px-5 py-1.5 border-y">2014 Senate</td>
@@ -62,6 +59,9 @@ A state's historic voting tendencies can give us important insight into their fu
         <td className="px-5 py-1.5 border-y">2016 Governor</td>
         <td className="px-5 py-1.5 border-y"><Math inline>{"`0.06`"}</Math></td>
       </tr>
+      <tr>
+        <td className="px-5 py-1.5 border-y">2018 House</td>
+        <td className="px-5 py-1.5 border-y"><Math inline>{"`0.0435`"}</Math></td>
       <tr>
         <td className="px-5 py-1.5 border-y">2018 Senate</td>
         <td className="px-5 py-1.5 border-y"><Math inline>{"`0.10`"}</Math></td>
@@ -172,13 +172,13 @@ where <Math inline>{"`n_30`"}</Math> and <Math inline>{"`n`"}</Math> are the num
 There are many sources of uncertainty in our model. To calculate the overall variance, we begin by finding the weighted sampling variance of the polls and then adding additional variance based on two factors: the number of undecided voters for each race (VIBE) and how wrong a state’s polling predictions have been historically (GOOFI).
 
 ### Variance of Indecisive Ballot Electors (VIBE)
-The Variance of Indecisive Ballot Electors (VIBE) is a metric used to add uncertainty to our model based on how many undecided voters there are in each race according to the polls. We define the percentage of undecided voters <Math inline>{"`U`"}</Math> as anyone who reported not voting for the top Republican and Democratic candidates, <Math inline>{"`1-(D_text(actual) + R_text(polls))`"}</Math>. Note that <Math inline>{"`D_text(polls)`"}</Math> is not the same as <Math inline>{"`D`"}</Math> used in earlier calculations because <Math inline>{"`D`"}</Math> is the proportion of voters who voted for the top Democratic candidate amongst those who voted for either the top Democratic or Republican candidates. Using the weights
+The Variance of Indecisive Ballot Electors (VIBE) is a metric used to add uncertainty to our model based on how many uncommitted voters there are in each race according to the polls. We define the percentage of uncommitted voters <Math inline>{"`U`"}</Math> as anyone who reported not voting for the top Republican and Democratic candidates, <Math inline>{"`1-(D_text(actual) + R_text(polls))`"}</Math>. Note that <Math inline>{"`D_text(polls)`"}</Math> is not the same as <Math inline>{"`D`"}</Math> used in earlier calculations because <Math inline>{"`D`"}</Math> is the proportion of voters who voted for the top Democratic candidate amongst those who voted for either the top Democratic or Republican candidates. Using the weights
 
 <Center>
   <Math>{"`w = e^{-0.05d}`"}</Math>
 </Center>
 
-we used in Bigmood and polling averages, the average undecided voter percentage <Math inline>{"`A`"}</Math> is
+we used in Bigmood and polling averages, the average uncommitted voter percentage <Math inline>{"`A`"}</Math> is
 
 <Center>
   <Math>{"`A = frac{sum(1-(D_i+R_i))*w_i}{sum w_i}`"}</Math>
@@ -219,13 +219,13 @@ The overall variance <Math inline>{"`sigma^2`"}</Math> is calculated by adding t
 As a caveat, this assumes that the polling averages are independent from undecided voters and the error of the 2020 ORACLE. Although it is safe to assume the 2020 ORACLE error is independent from 2022 polls, there might be some correlation between the proportion of undecided voters <Math inline>{"`A`"}</Math> and the Democratic two-party vote percentage <Math inline>{"`D`"}</Math>. However, <Math inline>{"`D`"}</Math> can take on any number independent of what <Math inline>{"`A`"}</Math> is. For example, if the actual Democratic vote percentage is 20%, and <Math inline>{"`A`"}</Math> is 20%, the value of <Math inline>{"`D`"}</Math> is 25%. But if the actual Democratic vote percentage is 40%, then the value of <Math inline>{"`D`"}</Math> becomes 50%. There is likely little correlation between the actual Democratic vote percentage and undecided voter percentage, so the covariance between VIBE and the polling averages should be significantly smaller than the sum of the extra variance and sampling variance.
 
 <Center>
-  <Math>{"`sigma_text(extra,polls) < < sigma_text(polls)^2 + sigma_text(extra)^2`"}</Math>
+  <Math inline>{"`sigma_text(extra,polls)`"}</Math> &Lt; <Math inline>{"`sigma_text(polls)^2 + sigma_text(extra)^2`"}</Math>
 </Center>
 
 Therefore,
 
 <Center>
-  <Math>{"`sigma^2 = sqrt{sigma_text(polls)^2 + sigma_text(extra)^2 + sigma_text(extra,polls)}`"}</Math>
+  <Math>{"`sigma^2 = sqrt{sigma_text(polls)^2 + sigma_text(extra)^2 + 2sigma_text(extra,polls)}`"}</Math>
 </Center>
 
 simplifies to the independent case of
@@ -277,20 +277,22 @@ The final estimate <Math inline>{"`mu`"}</Math> for a given race is then calcula
 ### Example
 Suppose that there are only states <Math inline>{"`S`"}</Math>, <Math inline>{"`A`"}</Math>, <Math inline>{"`B`"}</Math>, and <Math inline>{"`C`"}</Math>. The senator race in state <Math inline>{"`S`"}</Math> has a lean of <Math inline>{"`0.55`"}</Math>.
 
-- the gubernatorial race in state <Math inline>{"`S`"}</Math> has a predicted error of <Math inline>{"`0.05`"}</Math>
-- the senator race in state <Math inline>{"`A`"}</Math> has a predicted error of <Math inline>{"`0.01`"}</Math> and has a correlation of <Math inline>{"`0.9`"}</Math> with state <Math inline>{"`S`"}</Math>
-- the senator race in state <Math inline>{"`B`"}</Math> has a predicted error of <Math inline>{"`-0.05`"}</Math> and has a correlation of <Math inline>{"`0.1`"}</Math> with state <Math inline>{"`S`"}</Math>
-- the senator race in state <Math inline>{"`C`"}</Math> has a predicted error of <Math inline>{"`0.1`"}</Math> and has a correlation of <Math inline>{"`-0.5`"}</Math> with state <Math inline>{"`S`"}</Math>
-- the gubernatorial race in state <Math inline>{"`C`"}</Math> has a predicted error of <Math inline>{"`0.02`"}</Math> but has zero correlation with the senate race in state <Math inline>{"`S`"}</Math>
+- the gubernatorial race in state <Math inline>{"`S`"}</Math> has a simulated error of <Math inline>{"`0.05`"}</Math>
+- the senator race in state <Math inline>{"`A`"}</Math> has a simulated error of <Math inline>{"`0.01`"}</Math> and has a correlation of <Math inline>{"`0.9`"}</Math> with state <Math inline>{"`S`"}</Math>
+- the senator race in state <Math inline>{"`B`"}</Math> has a simulated error of <Math inline>{"`-0.05`"}</Math> and has a correlation of <Math inline>{"`0.1`"}</Math> with state <Math inline>{"`S`"}</Math>
+- the senator race in state <Math inline>{"`C`"}</Math> has a simulated error of <Math inline>{"`0.1`"}</Math> and has a correlation of <Math inline>{"`-0.5`"}</Math> with state <Math inline>{"`S`"}</Math>
+- the gubernatorial race in state <Math inline>{"`C`"}</Math> has a simulated error of <Math inline>{"`0.02`"}</Math> but has zero correlation with the senate race in state <Math inline>{"`S`"}</Math>
 
 We can perform the calculations outlined above.
 
 <Center>
   <Math>{"`Deltax_text(dem) = frac{0.9*0.01 + 0.1*(-0.05) + (-0.05)*0.1}{0.9 + 0.1 - 0.5} = -0.002`"}</Math>
 </Center>
+
 <Center>
   <Math>{"`Deltax_text(state) = 0.6*0.05 = +0.030`"}</Math>
 </Center>
+
 <Center>
   <Math>{"`Deltax = -0.002 + 0.03 = +0.028`"}</Math>
 </Center>

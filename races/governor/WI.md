@@ -1,5 +1,5 @@
 ## About Wisconsin
-STATE DESCRIPTION
+Wisconsin is a northern Mid-West state known for its dairy industry, particularly cheese. In recent years it has been a swing state, voting for Trump in 2016 by a slight margin and Biden in 2020 in a similarly close race. 
 
 ---
 
@@ -27,10 +27,10 @@ STATE DESCRIPTION
     #### Primaries
   </Header>
   <Box>
-    DEMOCRATIC PRIMARY INFO
+    Tony Evers was the incumbent and won his primary completed uncontested.
   </Box>
   <Box>
-    REPUBLICAN PRIMARY INFO
+    The Republican primary was much closer with five candidates running. The two frontrunners were Tim Michels and Rebecca Kleefisch, receiving 47% and 42% of the vote respectively.
   </Box>
 
   <Header>

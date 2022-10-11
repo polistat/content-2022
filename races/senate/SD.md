@@ -1,5 +1,5 @@
 ## About South Dakota
-STATE DESCRIPTION
+South Dakota is a relatively rural state in the northern Midwest. More than 80% of the residents are white, followed by 8.5% being Native American. Currently the Republican party is dominant in South Dakota. 
 
 ---
 
@@ -28,10 +28,10 @@ STATE DESCRIPTION
     #### Primaries
   </Header>
   <Box>
-    DEMOCRATIC PRIMARY INFO
+    The Democratic primary was cancelled, allowing Brian Bengs to advance to the general election without competition. 
   </Box>
   <Box>
-    REPUBLICAN PRIMARY INFO
+    Being a long time incumbent, John Thune faced very little competition in the Republican primary, winning over 70% of the vote. 
   </Box>
 
   <Header>

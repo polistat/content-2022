@@ -35,10 +35,10 @@ Wisconsin is a midwestern U.S. state with coastlines on 2 Great Lakes (Michigan 
     #### Primaries
   </Header>
   <Box>
-    Ron Johnson won the Republican primaries with 83.7% vote with 563,227 votes.
+    Mandela Barnes won the Democratic primary with 77.8% of the vote with 389,942 votes.
   </Box>
   <Box>
-    Mandela Barnes won the Democratic primary with 77.8% of the vote with 389,942 votes.
+    Ron Johnson won the Republican primaries with 83.7% vote with 563,227 votes.
   </Box>
 
   <Header>

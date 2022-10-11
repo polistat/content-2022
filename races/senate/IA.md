@@ -22,7 +22,7 @@ Bordered by both the Mississippi River and the Missouri River, Iowa is home to o
 
   </Box>
   <Box>
-     The Democratic candidate, Michael Franken, is a retired US Navy Vice Admiral who graduated from academic institutions such as the Naval Postgraduate School’s College of Physics and the University of Virginia School of Executive Education. He was married in 1989 and now has two children with his wife.
+     The Democratic candidate, Michael Franken, is a retired US Navy Vice Admiral who graduated from academic institutions such as the Naval Postgraduate School’s College of Physics and the University of Virginia School of Executive Education.
   </Box>
 
   <Header>

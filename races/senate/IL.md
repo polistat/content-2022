@@ -46,7 +46,7 @@ In 2021, 60% of residents of Illinois identified as White/non-hispanic. 18% iden
     #### Campaign ads
   </Header>
   <Box>
-    - [Duckworth Twitter Ad](https://pbs.twimg.com/media/FcieYQrWAAEsxzn.jpg)
+    - [Duckworth Ad](https://i.ibb.co/PmK4zJD/download-10.png)
     - [Duckworth Campaign Website](https://www.duckworth.senate.gov/)
   </Box>
   <Box>
