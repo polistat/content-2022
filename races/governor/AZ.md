@@ -1,5 +1,5 @@
 ## About Arizona
-Arizona has three main regions being the northwestern Colorado Plateau, a transition mountainous region, and the southern basin, where most major cities reside. Being on the border, Arizona has an incredibly high proportion of Hispanics, nearly 31.7%.
+Arizona became the forty-eighth state in 1912 after being purchased from Mexico in 1853. It has three main regions being the northwestern Colorado Plateau, a transition mountainous region, and the southern basin, where most major cities reside. Being on the border, Arizona has an incredibly high proportion of Hispanics, nearly 31.7%.Phoenix, Arizona's capital, has been rated the hottest city in America. 
 
 ---
 
