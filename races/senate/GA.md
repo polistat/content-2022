@@ -1,5 +1,5 @@
 ## About Georgia
-On February 5, 1958, during a training mission flown by a B-47, a Mark 15 nuclear bomb, also known as the Tybee Bomb, was lost off the coast of Tybee Island near Savannah, Georgia. The bomb was thought by the Department of Energy to lie buried in silt at the bottom of Wassaw Sound.
+The 6th largest state by population, Georgia has historically voted republican but in recent times Georgia has become a swing state. Over the last twenty years, Georgia's white population has decreased from 71% to 60%. Nearly six in every ten of Georgia's population resides in its largest city, Atlanta, and its surrounding metropolitan area, which is 50% black. Georgia is known for its peach cobbler and for being the first state to lower the legal voting age from 21 to 18 under the slogan "Old enough to fight, old enough to vote" following the onset of World War II. 
 
 ---
 
