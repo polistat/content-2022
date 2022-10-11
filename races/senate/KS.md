@@ -1,5 +1,5 @@
 ## About Kansas
-Kansas, being in the Midwest, is largely flat. Cities are concentrated near the Mississippi river and its tributaries. Most of the state is in the Wheat Belt, and it is an agricultural powerhouse. The state is largely non-Hispanic White.
+Kansas, also known as the Sunflower State, is located in the Midwest and has population of almost 3 million people. Of the fifty states, it is the 36th most populous. The economy of Kansas relies on agriculture -- mainly wheat, corn, sorghum, and soybeans. This state is predominantly white, with 86% of the population identifying this way. It is comprised of 105 counties and is strongly Republican.
 
 ---
 
