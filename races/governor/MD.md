@@ -1,5 +1,5 @@
 ## About Maryland
-Maryland is a Mid-Atlantic bordering both the Atlantic Ocean and Chespeake Bay. Typically it is a very Democratic State, however, its previous governor, Larry Hogan, was a Republican. 
+Maryland is a Mid-Atlantic bordering both the Atlantic Ocean and Chespeake Bay. In 2021, 49% of residents of Maryland identified as White/non-hispanic. 11.1% identified as Hispanic/Latino, 30.2% identified as Black, 6.8% identified as Asian, 0.2% as Native Hawaiian and Other Pacific Islander, and 2.6% as multiracial. As for political leanings, 55% identified as Democratic/Democratic leaning, 31% identified as Republican/Republican leaning, and 14% identified as no leaning.
 
 ---
 
