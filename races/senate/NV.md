@@ -1,6 +1,5 @@
 ## About Nevada
-Democratic incumbent Catherine Cortez Masto will run against republican Adam Laxalt in the 2022 senate race in Nevada. They will be running against 3 other candidates. 
-
+Nevada has a population of 2,972,382 and covers 109,859 square miles. Nevada has a high proportion of White and Hispanic/Lantios with nearly 65.6% and 28.7% respectively. Around 86.7% of Nevada's population has graduated high school and 24.7% college.
 
 ---
 
