@@ -1,5 +1,5 @@
 ## About South Carolina
-With a population of 5.1 million, South Carolina is the 23rd most populous state and the state with the eigth highest percentage of the population that is black at 27 percent. 67 percent of the state is white, and the state has historically been solidly conservative.
+South Carolina is historically a Republican-voting state. With a population of 5.1 million, South Carolina is the 23rd most populous state and the state with the eigth highest percentage of the population that is black at 27 percent. 67 percent of the state is white, and the state has historically been solidly conservative. There are about 3.3 million registered voters in South Carolina, most of them being older citizens.
 
 ---
 
