@@ -1,5 +1,5 @@
 ## About STATE NAME
-STATE DESCRIPTION
+Rhode Island, a U.S. state in New England, is known for sandy shores and seaside Colonial towns. It's home to several large cities, including Newport, which is famed for sailing and Gilded Age mansions, such as The Breakers.
 
 ---
 
@@ -46,9 +46,9 @@ STATE DESCRIPTION
     #### Campaign ads
   </Header>
   <Box>
-    - [Dan McKee for Governor | "Motha"]https://www.youtube.com/watch?v=nFAAxG52Se8
+    - [Dan McKee for Governor | "Motha"](https://www.youtube.com/watch?v=nFAAxG52Se8)
   </Box>
   <Box>
-    - [No Campaign ad For Ashley Kalus](LINK TO REPUBLICAN CAMPAIGN AD)
+    - [Outrageous](https://www.youtube.com/watch?v=ejXrRWn-HQ0)
   </Box>
 </Grid>
