@@ -1,5 +1,5 @@
 ## About Vermont
-Vermont is the second least-populous state in the US, located in the very northeastern corner with a border with Canada. Despite an extremely rural population, the state is known to vote Democrat for Senators and Governors, with the notable exception of the current Governor being a Republican. Unlike all other states, Vermont’s governors serve for only 2 years in a term.
+Vermont is the second least-populous state in the US, located in the very northeastern corner with a border with Canada. Despite an extremely rural population, the state is known to vote Democrat for Senators and Governors, with the notable exception of the current Governor being a Republican. Unlike all other states, Vermont’s governors serve for only 2 years in a term. In recent years it has also typically support the Democratic party with the exception of its Republican governor. Over 90% of its 650,000 residents are white. 38% of its residents are college educated. 
 
 ---
 
