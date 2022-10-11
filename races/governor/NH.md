@@ -1,5 +1,5 @@
 ## About New Hampshire
-New Hampshire is a state in New England, with a combination of wilderness and a townlife. Nearby law Mt. Washington, the White Mountains, and the Appalachian Trail. It's a tiny state, as it's the fifth smallest by area and tenth smallest by population.
+New Hampshire is a state in New England, with a combination of wilderness and a townlife nearby law Mt. Washington, the White Mountains, and the Appalachian Trail. New Hampshire is known for its many lakes, skiing, and beautiful landscapes. It's a tiny state, as it's the fifth smallest by area and tenth smallest by population. The population is 93% white, and party control switches between Democrats and Republicans quite often.
 
 ---
 
