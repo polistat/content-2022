@@ -34,7 +34,6 @@ A state's historic voting tendencies can give us important insight into their fu
       </tr>
     </thead>
     <tbody className="">
-      </tr>
       <tr>
         <td className="px-5 py-1.5 border-y">2014 Senate</td>
         <td className="px-5 py-1.5 border-y"><Math inline>{"`0.05`"}</Math></td>
@@ -62,6 +61,7 @@ A state's historic voting tendencies can give us important insight into their fu
       <tr>
         <td className="px-5 py-1.5 border-y">2018 House</td>
         <td className="px-5 py-1.5 border-y"><Math inline>{"`0.0435`"}</Math></td>
+      </tr>
       <tr>
         <td className="px-5 py-1.5 border-y">2018 Senate</td>
         <td className="px-5 py-1.5 border-y"><Math inline>{"`0.10`"}</Math></td>
