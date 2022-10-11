@@ -1,5 +1,5 @@
 ## About Oregon
-Oregon is located in the Northwest, with a population of four million. Around half of the population of Oregon lives in the Portland metropolitan area. Oregon typically leans Democratic. 
+Oregon is a state on the West Coast of the US that historically leans Democratic. The state is mainly split up into two geographically separate poltiical areas: the liberal cities in Willamette Valley vs the rest of the state which is conservative. Since most of the population is concentrated in the metropolitan areas, the state has liberal laws which allow assistive suicide, medical use of maurijuana, and strict environmental protections.
 
 ---
 
