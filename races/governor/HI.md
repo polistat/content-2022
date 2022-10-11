@@ -1,5 +1,5 @@
 ## About Hawaii
-Hawaii is a group of volcanic islands in the central Pacific Ocean, becoming the 50th U.S. state in 1959. Hawaii has a strong economy, with diversified agriculture and manufacturing, and also serves as an important location for research and development in oceanography, geophysics, astronomy, and biomedicine. Of the 50 U.S. states, Hawaii is the 8th smallest in land area and 11th least populous, but ranks 13th in population density and is one of the country's most diverse states, serving as a unique melting pot of North American and East Asian cultures.
+Hawaii is a group of volcanic islands in the central Pacific Ocean, becoming the 50th U.S. state in 1959. Hawaii has a strong economy, with diversified agriculture and manufacturing, and also serves as an important location for research and development in oceanography, geophysics, astronomy, and biomedicine. Of the 50 U.S. states, Hawaii is the 8th smallest in land area and 11th least populous, but ranks 13th in population density and is one of the country's most diverse states, serving as a unique melting pot of North American and East Asian cultures. Because of its large native population, Hawaii has voted strongly Democratic in all elections since 1960, except for two.
 
 ---
 
