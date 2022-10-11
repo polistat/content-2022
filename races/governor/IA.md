@@ -1,5 +1,5 @@
 ## About Iowa
-Incumbent Republican Kim Reynolds is running for reelection against Democrat Deidre DeJear
+Bordered by both the Mississippi River and the Missouri River, Iowa is home to over 3.15 million people. Approximately 89% of Iowa’s population are White, almost 4% are Black, and 2.5% are Asian, with the rest of the population being mixed or of other races. 92% of the state’s 25 year old and older population have graduated High School, and 29% of the state’s 25 year old and older population have a Bachelor’s degree or higher. A large percentage of the state is educated, contributing to the reason that Iowa has the highest literacy rate of any state.
 
 ---
 
