@@ -149,9 +149,7 @@ We use <Math inline>{"`X`"}</Math> to calculate <Math inline>{"`text(BABOON)`"}<
 
 For gubernatorial races, the shift due to Bigmood is <Math inline>{"`0`"}</Math> and <Math inline>{"`text(BABOON)`"}</Math> is equal to the calculated <Math inline>{"`text(BPI)`"}</Math> value.
 
-## Averaging Polls
----
-
+### Averaging Polls
 Polling data is a valuable predictor of people's future voting behavior. We take a weighted average of the poll results available for each state race to form our predictions.
 
 In our model, we only include polls that earned at least a C- grade on [FiveThirtyEight](https://fivethirtyeight.com/polls/) and have no more than 1 Democratic and 1 Republican candidate (with the exception of Alaska). In the case of Alaska, we categorized any candidate other than the top Democratic and Republican candidates as third-party candidates.
@@ -170,8 +168,7 @@ The average of the polls (<Math inline>{"`mu`"}</Math>) is determined by taking 
   <Math>{"`mu = frac{sum D_i * w_i}{sum w_i}`"}</Math>
 </Center>
 
-## Lean
----
+### Lean
 To combine our polling average with <Math inline>{"`text(BABOON)`"}</Math> (which represents the <Math inline>{"`BPI`"}</Math> shifted by national mood) into a single estimate for each race, we take a weighted average of the two values.
 
 The weight given to the poll results is based on two factors: the total number of polls available for that race (<Math inline>{"`n`"}</Math>) and the number of those polls that were conducted in the past 30 days (<Math inline>{"`n_30`"}</Math>). The weight <Math inline>{"`w`"}</Math> is calculated by:
