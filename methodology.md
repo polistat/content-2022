@@ -3,8 +3,6 @@ title: "Methodology"
 description: "How ORACLE of Blair's senate and governor models work"
 ---
 
-> [View this page in a PDF format](/Methodology.pdf)
-
 ## About
 ---
 The ORACLE (Overall Results of an Analytical Consideration of the Looming Elections) of Blair is an election model developed entirely by senior students at Montgomery Blair High School in Silver Spring, Maryland. Under the supervision of Mr. David Stein, we created this model during the fall semester to predict the outcomes of the upcoming 2022 Senate and Gubernatorial elections. This is the fourth iteration of election modeling at Blair; previous classes have also developed the Oracle to forecast the 2016 presidential election, 2018 congressional elections, and 2020 presidential election. 
