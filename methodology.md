@@ -106,7 +106,7 @@ For the Senate Model only[^1].
 
 [^1]: We did not consider national mood in our governors model because we decided that since gubernatorial races deal with issues on a more local level, the national mood did not play a role in voters’ opinions of gubernatorial candidates.
 
-We incorporated a national mood shift (Bigmood) into our predictions for the senate races. We decided that since gubernatorial races dealt with issues on a more local level, the national mood did not affect voters’ opinions of gubernatorial candidates. The national mood refers to the general feelings of the American peo- ple toward the country’s issues and our policymakers’ actions. We evaluate national mood through generic ballot polls, which ask people which party (Democratic or Republican) they would support in the election if it were held today.
+We incorporated a national mood shift (Bigmood) into our predictions for the senate races. We decided that since gubernatorial races dealt with issues on a more local level, the national mood did not affect voters’ opinions of gubernatorial candidates. The national mood refers to the general feelings of the American people toward the country’s issues and our policymakers’ actions. We evaluate national mood through generic ballot polls, which ask people which party (Democratic or Republican) they would support in the election if it were held today.
 
 To calculate the national mood, we take the weighted average of generic ballot polls that have earned at least a C- grade or higher on [FiveThirtyEight](https://projects.fivethirtyeight.com/polls/). We weighted polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
 
@@ -114,7 +114,7 @@ To calculate the national mood, we take the weighted average of generic ballot p
   <Math>{"`w = e^{-0.05d}`"}</Math>
 </Center>
 
-where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted. This allows more recent polls to have an exponentially greater effect on national mood than earlier polls. Bigmood is calculated by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
+where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted. This allows more recent polls to have an exponentially greater effect on national mood than earlier polls. Bigmood is calculated by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> predicted by each poll.
 
 <Center>
   <Math>{"`text(Bigmood) = frac{sum D_i * w_i}{sum w_i}`"}</Math>
@@ -141,7 +141,7 @@ For each iteration of our simulation, we generate a random value from a normal d
   <Math>{"`X ~ mathcal{N}(text(Bigmood), sigma_text(Bigmood)^2)`"}</Math>
 </Center>
 
-We use <Math inline>{"`X`"}</Math> to calculate <Math inline>{"`text(BABOON)`"}</Math> for each iteration by multiplying the difference between X<Math inline>{"`X`"}</Math> and the event in which the Democratic and Republican candidates receive the same number of votes by <Math inline>{"`0.15`"}</Math> and adding it to the <Math inline>{"`text(BPI)`"}</Math>:
+We use <Math inline>{"`X`"}</Math> to calculate <Math inline>{"`text(BABOON)`"}</Math> for each iteration by multiplying the difference between <Math inline>{"`X`"}</Math> and the event in which the Democratic and Republican candidates receive the same number of votes by <Math inline>{"`0.15`"}</Math> and adding it to the <Math inline>{"`text(BPI)`"}</Math>:
 
 <Center>
   <Math>{"`text(BABOON) = text(BPI) + 0.15(X-0.5)`"}</Math>
@@ -219,13 +219,13 @@ VIBE (Variance of Indecisive Ballot Electors) is a metric used to add uncertaint
 
 where <Math inline>{"`D`"}</Math> is the poll’s predicted Democratic vote share and <Math inline>{"`R`"}</Math> is the poll’s predicted Republican vote share.
 
-Using the previously assigned weights for each poll (see Averaging Polls section), we take a weighted average of all of the polls' estimates for the percentage of uncomitted voters. The average uncommitted voter percentage <Math inline>{"`A`"}</Math> is:
+Using the previously assigned weights for each poll (see Averaging Polls section), we take a weighted average of all of the polls' estimates for the percentage of uncommitted voters. The average uncommitted voter percentage <Math inline>{"`A`"}</Math> is:
 
 <Center>
   <Math>{"`A = frac{sum w_i*U_i}{sum w_i}`"}</Math>
 </Center>
 
-We calculate VIBE using a logarithmic function to standardize the data as <Math inline>{"`A`"}</Math> was heavily skewed to the right. The variance in our model due to the percentage of uncomitted voters for each state is:
+We calculate VIBE using a logarithmic function to standardize the data as <Math inline>{"`A`"}</Math> was heavily skewed to the right. The variance in our model due to the percentage of uncommitted voters for each state is:
 
 <Center>
   <Math>{"`text(VIBE)=(2ln(A))^2`"}</Math>
@@ -238,7 +238,7 @@ Evaluating how accurately polls have been able to predict election results for s
   <Math>{"`epsilon = frac{D_2020 - hat D}{D_2020}`"}</Math>
 </Center>
 
-where <Math inline>{"`D_2020`"}</Math> was the 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
+where <Math inline>{"`D_2020`"}</Math> was the actual 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
 
 We use an arctangent function to calculate <Math inline>{"`text(GOOFI)`"}</Math> from this value so that our variance is not disproportionately affected by errors in the past model. To calculate variance from  <Math inline>{"`text(GOOFI)`"}</Math>:
 
