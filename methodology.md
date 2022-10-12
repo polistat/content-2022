@@ -90,7 +90,7 @@ A state's historic voting tendencies can give us important insight into their fu
   </table>
 </Center>
 
-For a given election, there is a Democratic two-party vote percentage <Math inline>{"`D`"}</Math> and weight <Math inline>{"`w`"}</Math>. Each weight was determined by the class based on how influential we thought each election was for this year’s cycle. The BPI is calculated by taking the weighted average of these previous elections.
+For a given election, there is a Democratic two-party vote percentage <Math inline>{"`D`"}</Math> and weight <Math inline>{"`w`"}</Math>. Each weight <Math inline>{"`w`"}</Math> was chosen by the class based on how representative we thought each election was for this year's cycle. The BPI is calculated by taking the weighted average of these previous elections' outcomes:
 
 <Center>
   <Math>{"`BPI = frac{sum D_i*w_i}{sum w_i}`"}</Math>
@@ -106,7 +106,7 @@ For the Senate Model only[^1].
 
 [^1]: We did not consider national mood in our governors model because we decided that since gubernatorial races deal with issues on a more local level, the national mood did not play a role in voters’ opinions of gubernatorial candidates.
 
-We incorporated a national mood shift (Bigmood) into our predictions for the senate races. We decided that since gubernatorial races dealt with issues on a more local level, the national mood did not affect voters’ opinions of gubernatorial candidates. The national mood refers to the general feelings of the American people toward the country’s issues and our policymakers’ actions. We evaluate national mood through generic ballot polls, which ask people which party (Democratic or Republican) they would support in the election if it were held today.
+We incorporated a national mood shift into our senate model predictions. The “national mood” refers to the general feelings of the American people toward the country's issues and our policymakers' actions. We evaluate national mood through generic ballot polls, which ask people ​​which party (Democratic or Republican) they would support in the election if it were held today.
 
 To calculate the national mood, we take the weighted average of generic ballot polls that have earned at least a C- grade or higher on [FiveThirtyEight](https://projects.fivethirtyeight.com/polls/). We weighted polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
 
@@ -114,26 +114,16 @@ To calculate the national mood, we take the weighted average of generic ballot p
   <Math>{"`w = e^{-0.05d}`"}</Math>
 </Center>
 
-where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted. This allows more recent polls to have an exponentially greater effect on national mood than earlier polls. Bigmood is calculated by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> predicted by each poll.
+where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted. This allows more recent polls to have an exponentially greater effect on national mood than earlier polls.
+
+Bigmood is calculated by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
 
 <Center>
-  <Math>{"`text(Bigmood) = frac{sum D_i * w_i}{sum w_i}`"}</Math>
-</Center>
-
-We also calculate a variance for Bigmood, which we will use in our simulation as explained in a later section. If the sampling variance of a poll <Math inline>{"`sigma^2`"}</Math> is defined by
-
-<Center>
-  <Math>{"`sigma^2 = frac{D(1-D)}{n}`"}</Math>
-</Center>
-
-where <Math inline>{"`n`"}</Math> is the sample size of the poll, then the variance of Bigmood <Math inline>{"`sigma_text(Bigmood)^2`"}</Math> is the weighted average of each Bigmood of the sampling variances for each poll using the same weight in our weighted average of Bigmood above.
-
-<Center>
-  <Math>{"`sigma_text(Bigmood)^2 = frac{sum sigma_i^2 * w_i}{sum w_i}`"}</Math>
+  <Math>{"`text(Bigmood) = frac{sum w_i * D_i}{sum w_i}`"}</Math>
 </Center>
 
 ### BPI and Bigmood On Our Network (BABOON)
-<Math inline>{"`text(BABOON)`"}</Math> (BPI and Bigmood On Our Network) is our method for combining our BPI value with the Bigmood into a single estimate.
+<Math inline>{"`text(BABOON)`"}</Math> (BPI and Bigmood On Our Network) is our method for combining our <Math inline>{"`text(BPI)`"}</Math> value with the Bigmood into a single estimate.
 
 For each iteration of our simulation, we generate a random value from a normal distribution whose center is our calculated <Math inline>{"`text(Bigmood)`"}</Math> value and whose variance is the sampling variance from <Math inline>{"`text(Bigmood)`"}</Math> (see Variance from Bigmood section below). We call this random number <Math inline>{"`X`"}</Math>: 
 
@@ -165,7 +155,7 @@ where <Math inline>{"`d`"}</Math> represents the number of days since the poll w
 The average of the polls (<Math inline>{"`mu`"}</Math>) is determined by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
 
 <Center>
-  <Math>{"`mu = frac{sum D_i * w_i}{sum w_i}`"}</Math>
+  <Math>{"`mu = frac{sum w_i * D_i}{sum w_i}`"}</Math>
 </Center>
 
 ### Lean
@@ -211,7 +201,7 @@ To find the combined variance from all of the polls used in making our predictio
 The generic ballot polls used to calculate Bigmood also have sampling error. We follow the same steps used to find variance from the polls (see Variance from the Polls section) to find the sampling error of each generic ballot poll and take a weighted average according to the weights used for calculating Bigmood (see Bigmood section). 
 
 ### Variance of Indecisive Ballot Electors (VIBE)
-VIBE (Variance of Indecisive Ballot Electors) is a metric used to add uncertainty to our model's predictions based on how many uncommitted voters there are in each race according to the polls. We define the percentage of uncommitted voters U as the percentage of people in each state who did not report that they plan to vote for either the Democratic or the Republican candidate:
+VIBE (Variance of Indecisive Ballot Electors) is a metric used to add uncertainty to our model's predictions based on how many uncommitted voters there are in each race according to the polls. We define the percentage of uncommitted voters <Math inline>{"`U`"}</Math> as the percentage of people in each state who did not report that they plan to vote for either the Democratic or the Republican candidate:
 
 <Center>
   <Math>{"`U = 1-(D+R)`"}</Math>
@@ -235,7 +225,7 @@ We calculate VIBE using a logarithmic function to standardize the data as <Math 
 Evaluating how accurately polls have been able to predict election results for states in the past can help us determine uncertainty in the polls for each state in this cycle. We calculate the Gradient of Ordinary Fixedness Index (GOOFI) by looking at how wrong the 2020 ORACLE was about each state’s behavior in the 2020 presidential election. The percent error is calculated by
 
 <Center>
-  <Math>{"`epsilon = frac{D_2020 - hat D}{D_2020}`"}</Math>
+  <Math>{"`epsilon = frac{abs(D_2020 - hat D)}{D_2020}`"}</Math>
 </Center>
 
 where <Math inline>{"`D_2020`"}</Math> was the actual 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
@@ -247,7 +237,7 @@ We use an arctangent function to calculate <Math inline>{"`text(GOOFI)`"}</Math>
 </Center>
 
 ### Overall Variance
-We combine the variance from the polls with the combined VIBE and <Math inline>{"`text(GOOFI)`"}</Math> variance using the method described below.
+We combine the variance from the polls with the combined <Math inline>{"`text(VIBE)`"}</Math> and <Math inline>{"`text(GOOFI)`"}</Math> variance using the method described below.
 
 To combine <Math inline>{"`text(VIBE)`"}</Math> with <Math inline>{"`text(GOOFI)`"}</Math>, we take a weighted average of the two values. We weight <Math inline>{"`text(VIBE)`"}</Math> using the same weight <Math inline>{"`w`"}</Math> used to combine the polling averages with <Math inline>{"`text(BABOON)`"}</Math> (see Combining Polls with <Math inline>{"`text(BABOON)`"}</Math> section). The weight given to <Math inline>{"`text(GOOFI)`"}</Math> is complementary to the weight given to <Math inline>{"`text(VIBE)`"}</Math> so that the weights always sum to <Math inline>{"`1`"}</Math>. The total additional variance from <Math inline>{"`text(VIBE)`"}</Math> and <Math inline>{"`text(GOOFI)`"}</Math> is calculated by:
 
@@ -261,7 +251,7 @@ We compute the overall variance <Math inline>{"`sigma^2`"}</Math> for our state 
   <Math>{"`sigma^2 = sigma_text(polls)^2 + sigma_text(extra)^2`"}</Math>
 </Center>
 
-As a caveat, this assumes that the polling averages are independent from undecided voters and the error of the 2020 ORACLE. Although it is safe to assume the 2020 ORACLE error is independent from 2022 polls, there might be some correlation between the proportion of undecided voters <Math inline>{"`A`"}</Math> and the Democratic two-party vote percentage <Math inline>{"`D`"}</Math>. However, <Math inline>{"`D`"}</Math> can take on any number independent of what <Math inline>{"`A`"}</Math> is. For example, if the actual Democratic vote percentage is 20%, and <Math inline>{"`A`"}</Math> is 20%, the value of <Math inline>{"`D`"}</Math> is 25%. But if the actual Democratic vote percentage is 40%, then the value of <Math inline>{"`D`"}</Math> becomes 50%. There is likely little correlation between the actual Democratic vote percentage and undecided voter percentage, so the covariance between VIBE and the polling averages should be significantly smaller than the sum of the extra variance and sampling variance.
+As a caveat, this assumes that the polling averages are independent from undecided voters and the error of the 2020 ORACLE. Although it is safe to assume the 2020 ORACLE error is independent from 2022 polls, there might be some correlation between the proportion of undecided voters <Math inline>{"`A`"}</Math> and the Democratic two-party vote percentage <Math inline>{"`D`"}</Math>. However, <Math inline>{"`D`"}</Math> can take on any number independent of what <Math inline>{"`A`"}</Math> is. For example, if the actual Democratic vote percentage is 20%, and <Math inline>{"`A`"}</Math> is 20%, the value of <Math inline>{"`D`"}</Math> is 25%. But if the actual Democratic vote percentage is 40%, then the value of <Math inline>{"`D`"}</Math> becomes 50%. There is likely little correlation between the actual Democratic vote percentage and undecided voter percentage, so the covariance between <Math inline>{"`text(VIBE)`"}</Math> and the polling averages should be significantly smaller than the sum of the extra variance and sampling variance.
 
 <Center>
   <Math inline>{"`sigma_text(extra,polls)`"}</Math> &Lt; <Math inline>{"`sigma_text(polls)^2 + sigma_text(extra)^2`"}</Math>
