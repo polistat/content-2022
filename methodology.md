@@ -102,7 +102,7 @@ The BPI serves as a starting point in our model for estimating the two-party vot
 ---
 
 ### National Mood (Bigmood)
-For the Senate Model only[^1].
+For the Senate Model only.[^1]
 
 [^1]: We did not consider national mood in our governors model because we decided that since gubernatorial races deal with issues on a more local level, the national mood did not play a role in voters’ opinions of gubernatorial candidates.
 
