@@ -9,7 +9,7 @@ description: "How ORACLE of Blair's senate and governor models work"
 ---
 The ORACLE (Overall Results of an Analytical Consideration of the Looming Elections) of Blair is an election model developed entirely by senior students at Montgomery Blair High School in Silver Spring, Maryland. Under the supervision of Mr. David Stein, we created this model during the fall semester to predict the outcomes of the upcoming 2022 Senate and Gubernatorial elections. This is the fourth iteration of election modeling at Blair; previous classes have also developed the Oracle to forecast the 2016 presidential election, 2018 congressional elections, and 2020 presidential election. 
 
-In the spirit of transparency and education, we describe in detail exactly how we came up with all of the numbers in our simulation. You can read about our reasoning and methods for constructing the model in the following sections. All of the decisions in creating this model were made by the students in the class, and we take full responsibility for this model's methods and predictions. If you are interested in politics, statistics, education, or our model, please consider spreading the word about the work that we've done.
+In the spirit of transparency and education, we describe in detail exactly how we came up with all of the numbers in our simulation. You can read about our reasoning and methods for constructing the model in the following sections. The code that implements our model is available on [GitHub](https://github.com/polistat). All of the decisions in creating this model were made by the students in the class, and we take full responsibility for this model's methods and predictions. If you are interested in politics, statistics, education, or our model, please consider spreading the word about the work that we've done.
 
 
 ## Overview
@@ -30,7 +30,7 @@ A state's historic voting tendencies can give us important insight into their fu
     <thead className="text-left uppercase text-sm text-neutral-400">
       <tr>
         <th className="px-5 py-1.5">Election</th>
-        <th className="px-5 py-1.5">Weight</th>
+        <th className="px-5 py-1.5">Weight (<Math inline>{"`w`"}</Math>)</th>
       </tr>
     </thead>
     <tbody className="">
@@ -90,14 +90,25 @@ A state's historic voting tendencies can give us important insight into their fu
   </table>
 </Center>
 
-For a given election, there is a Democratic two-party vote percentage D and weight w. Each weight was determined by the class based on how influential we thought each election was for this year’s cycle. The BPI is calculated by taking the weighted average of these previous elections.
+For a given election, there is a Democratic two-party vote percentage <Math inline>{"`D`"}</Math> and weight <Math inline>{"`w`"}</Math>. Each weight was determined by the class based on how influential we thought each election was for this year’s cycle. The BPI is calculated by taking the weighted average of these previous elections.
+
+<Center>
+  <Math>{"`BPI = frac{sum D_i*w_i}{sum w_i}`"}</Math>
+</Center>
 
 The BPI serves as a starting point in our model for estimating the two-party vote percentage that the Democratic candidate will receive.
 
-### National Mood (Bigmood)
-We incorporated a national mood shift (Bigmood) into our predictions for the senate races. We decided that since gubernatorial races dealt with issues on a more local level, the national mood did not affect voters'opinions of gubernatorial candidates. The national mood refers to the general feelings of the American people toward the country’s issues and our policymakers’ actions. We evaluate national mood through generic ballot polls, which ask people which party (Democratic or Republican) they would support in the election if it were held today.
+## Creating a Center
+---
 
-To calculate the national mood, we take the weighted average of generic ballot polls that have earned at least a C- grade or higher on FiveThirtyEight. We weighted polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
+### National Mood (Bigmood)
+For the Senate Model only[^1].
+
+[^1]: We did not consider national mood in our governors model because we decided that since gubernatorial races deal with issues on a more local level, the national mood did not play a role in voters’ opinions of gubernatorial candidates.
+
+We incorporated a national mood shift (Bigmood) into our predictions for the senate races. We decided that since gubernatorial races dealt with issues on a more local level, the national mood did not affect voters’ opinions of gubernatorial candidates. The national mood refers to the general feelings of the American peo- ple toward the country’s issues and our policymakers’ actions. We evaluate national mood through generic ballot polls, which ask people which party (Democratic or Republican) they would support in the election if it were held today.
+
+To calculate the national mood, we take the weighted average of generic ballot polls that have earned at least a C- grade or higher on [FiveThirtyEight](https://projects.fivethirtyeight.com/polls/). We weighted polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
 
 <Center>
   <Math>{"`w = e^{-0.05d}`"}</Math>
@@ -122,69 +133,102 @@ where <Math inline>{"`n`"}</Math> is the sample size of the poll, then the varia
 </Center>
 
 ### BPI and Bigmood On Our Network (BABOON)
-BABOON (BPI and Bigmood On Our Network) is our method for combining our BPI value with the Bigmood into a single estimate for the prior two-party vote percentage for senate races. For gubernatorial races, we simply use BPI for BABOON. For each iteration of our simulation, we generate a random value from the normal distribution <Math inline>{"`X ~ mathcal{N}(text(Bigmood), sigma_text(Bigmood)^2)`"}</Math>. We use <Math inline>{"`X`"}</Math> to calculate BABOON for each iteration Bigmood by multiplying the difference between X and the event in which the Democratic and Republican candidates receive the same number of votes by 0.15 and adding it to the BPI.
+<Math inline>{"`text(BABOON)`"}</Math> (BPI and Bigmood On Our Network) is our method for combining our BPI value with the Bigmood into a single estimate.
+
+For each iteration of our simulation, we generate a random value from a normal distribution whose center is our calculated <Math inline>{"`text(Bigmood)`"}</Math> value and whose variance is the sampling variance from <Math inline>{"`text(Bigmood)`"}</Math> (see Variance from Bigmood section below). We call this random number <Math inline>{"`X`"}</Math>: 
+
+<Center>
+  <Math>{"`X ~ mathcal{N}(text(Bigmood), sigma_text(Bigmood)^2)`"}</Math>
+</Center>
+
+We use <Math inline>{"`X`"}</Math> to calculate <Math inline>{"`text(BABOON)`"}</Math> for each iteration by multiplying the difference between X<Math inline>{"`X`"}</Math> and the event in which the Democratic and Republican candidates receive the same number of votes by <Math inline>{"`0.15`"}</Math> and adding it to the <Math inline>{"`text(BPI)`"}</Math>:
 
 <Center>
   <Math>{"`text(BABOON) = text(BPI) + 0.15(X-0.5)`"}</Math>
 </Center>
 
+For gubernatorial races, the shift due to Bigmood is <Math inline>{"`0`"}</Math> and <Math inline>{"`text(BABOON)`"}</Math> is equal to the calculated <Math inline>{"`text(BPI)`"}</Math> value.
 
-## Averaging polls
+## Averaging Polls
 ---
-Polling data is a valuable predictor of people’s future voting behavior. In our model, we only include polls that earned at least a C- grade on FiveThirtyEight and have no more than 1 Democratic and 1 Republican candidate with the exception of Alaska. In the case of Alaska we categorized any candidate other than the top Democratic and Republican candidates as third-party candidates. Similar to Bigmood, we weight the polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight w for each poll is
+
+Polling data is a valuable predictor of people's future voting behavior. We take a weighted average of the poll results available for each state race to form our predictions.
+
+In our model, we only include polls that earned at least a C- grade on [FiveThirtyEight](https://fivethirtyeight.com/polls/) and have no more than 1 Democratic and 1 Republican candidate (with the exception of Alaska). In the case of Alaska, we categorized any candidate other than the top Democratic and Republican candidates as third-party candidates.
+
+Similar to <Math inline>{"`text(Bigmood)`"}</Math>, we weight the polls based on how long ago they were conducted so that more recent polls are weighted more heavily in our model. The weight <Math inline>{"`w`"}</Math> for each poll is:
 
 <Center>
   <Math>{"`w = e^{-0.05d)`"}</Math>
 </Center>
 
-where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted. The average of the polls is determined by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
+where <Math inline>{"`d`"}</Math> represents the number of days since the poll was conducted.
+
+The average of the polls (<Math inline>{"`mu`"}</Math>) is determined by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
 
 <Center>
   <Math>{"`mu = frac{sum D_i * w_i}{sum w_i}`"}</Math>
 </Center>
 
-We also calculate the variance for the average of the polls in the same way we calculated it for Bigmood. Using the same weights as above, the average variance <Math inline>{"`sigma_text(polls)^2`"}</Math> is
-
-<Center>
-  <Math>{"`sigma_text(polls)^2 = frac{sum sigma_i^2 * w_i}{sum w_i}`"}</Math>
-</Center>
-
-where <Math inline>{"`sigma^2`"}</Math> is the sampling variance of each poll.
-
-
 ## Lean
 ---
-To combine our polling average with BABOON into a single estimate for each race, we take a weighted average of the two values. In a world where we are given an infinite number of polls for a race, the vast majority of our estimate should come from the polling averages. Thus we chose the arctangent function to calculate the weight <Math inline>{"`w`"}</Math> for the polling average so that as the number of polls approaches infinity, the polling average comprises 95% of our estimate. The weight is calculated by
+To combine our polling average with <Math inline>{"`text(BABOON)`"}</Math> (which represents the <Math inline>{"`BPI`"}</Math> shifted by national mood) into a single estimate for each race, we take a weighted average of the two values.
+
+The weight given to the poll results is based on two factors: the total number of polls available for that race (<Math inline>{"`n`"}</Math>) and the number of those polls that were conducted in the past 30 days (<Math inline>{"`n_30`"}</Math>). The weight <Math inline>{"`w`"}</Math> is calculated by:
 
 <Center>
   <Math>{"`w = frac{1.9}{pi} arctan(1.75n_30 + 0.05n)`"}</Math>
 </Center>
 
-where <Math inline>{"`n_30`"}</Math> and <Math inline>{"`n`"}</Math> are the number of polls for that race in the last thirty days and in total respectively. The state lean is calculated by weighting the polling average in this manner.
+This is because for races that have been highly polled, our estimate should largely be based on polling averages. We chose the arctangent function to calculate the weight for the polling average so that as the number of polls approaches infinity, the polling average comprises <Math inline>{"`95%`"}</Math> of our model’s estimate.
+
+The weight given to <Math inline>{"`text(BABOON)`"}</Math> is complementary to the weight given to the polls so that the weights sum to <Math inline>{"`1`"}</Math>.
+
+Thus, the overall state lean (our estimate for the Democratic two-party vote percentage) is the weighted average of the poll results and <Math inline>{"`text(BABOON)`"}</Math>:
 
 <Center>
   <Math>{"`text(Lean) = w*text(polls)+(1-w)*text(BABOON)`"}</Math>
 </Center>
 
 
-## Variance
+## Determining Variance
 ---
 There are many sources of uncertainty in our model. To calculate the overall variance, we begin by finding the weighted sampling variance of the polls and then adding additional variance based on two factors: the number of undecided voters for each race (VIBE) and how wrong a state’s polling predictions have been historically (GOOFI).
 
+### Sampling Variance
+Every poll has an inherent amount of sampling variance associated with it. The sampling variance of a poll <Math inline>{"`sigma^2`"}</Math> is defined by:
+
+<Center>
+  <Math>{"`sigma^2 = frac{D(1-D)}{n}`"}</Math>
+</Center>
+
+Where <Math inline>{"`n`"}</Math> is the sample size of the poll and <Math inline>{"`D`"}</Math> is the predicted Democratic two-party percentage.
+
+To find the combined variance from all of the polls used in making our prediction, we take the weighted average of the sampling error for each poll. The weight given to each poll is the same as the weight used to average the polls (see Averaging Polls section). 
+
+<Center>
+  <Math>{"`sigma_text(*)^2 = frac{sum sigma_i^2*w_i}{sum w_i}`"}</Math>
+</Center>
+
+### Variance from Bigmood
+The generic ballot polls used to calculate Bigmood also have sampling error. We follow the same steps used to find variance from the polls (see Variance from the Polls section) to find the sampling error of each generic ballot poll and take a weighted average according to the weights used for calculating Bigmood (see Bigmood section). 
+
 ### Variance of Indecisive Ballot Electors (VIBE)
-The Variance of Indecisive Ballot Electors (VIBE) is a metric used to add uncertainty to our model based on how many uncommitted voters there are in each race according to the polls. We define the percentage of uncommitted voters <Math inline>{"`U`"}</Math> as anyone who reported not voting for the top Republican and Democratic candidates, <Math inline>{"`1-(D_text(actual) + R_text(polls))`"}</Math>. Note that <Math inline>{"`D_text(polls)`"}</Math> is not the same as <Math inline>{"`D`"}</Math> used in earlier calculations because <Math inline>{"`D`"}</Math> is the proportion of voters who voted for the top Democratic candidate amongst those who voted for either the top Democratic or Republican candidates. Using the weights
+VIBE (Variance of Indecisive Ballot Electors) is a metric used to add uncertainty to our model's predictions based on how many uncommitted voters there are in each race according to the polls. We define the percentage of uncommitted voters U as the percentage of people in each state who did not report that they plan to vote for either the Democratic or the Republican candidate:
 
 <Center>
-  <Math>{"`w = e^{-0.05d}`"}</Math>
+  <Math>{"`U = 1-(D+R)`"}</Math>
 </Center>
 
-we used in Bigmood and polling averages, the average uncommitted voter percentage <Math inline>{"`A`"}</Math> is
+where <Math inline>{"`D`"}</Math> is the poll’s predicted Democratic vote share and <Math inline>{"`R`"}</Math> is the poll’s predicted Republican vote share.
+
+Using the previously assigned weights for each poll (see Averaging Polls section), we take a weighted average of all of the polls' estimates for the percentage of uncomitted voters. The average uncommitted voter percentage <Math inline>{"`A`"}</Math> is:
 
 <Center>
-  <Math>{"`A = frac{sum(1-(D_i+R_i))*w_i}{sum w_i}`"}</Math>
+  <Math>{"`A = frac{sum w_i*U_i}{sum w_i}`"}</Math>
 </Center>
 
-We then calculate VIBE using a logarithmic function to standardize the data as <Math inline>{"`A`"}</Math> was heavily skewed right.
+We calculate VIBE using a logarithmic function to standardize the data as <Math inline>{"`A`"}</Math> was heavily skewed to the right. The variance in our model due to the percentage of uncomitted voters for each state is:
 
 <Center>
   <Math>{"`text(VIBE)=(2ln(A))^2`"}</Math>
@@ -197,20 +241,24 @@ Evaluating how accurately polls have been able to predict election results for s
   <Math>{"`epsilon = frac{D_2020 - hat D}{D_2020}`"}</Math>
 </Center>
 
-where <Math inline>{"`D_2020`"}</Math> was the 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction. GOOFI is then calculated with an arctangent function because we do not want our variance to explode because the 2020 ORACLE was not very accurate.
+where <Math inline>{"`D_2020`"}</Math> was the 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
+
+We use an arctangent function to calculate <Math inline>{"`text(GOOFI)`"}</Math> from this value so that our variance is not disproportionately affected by errors in the past model. To calculate variance from  <Math inline>{"`text(GOOFI)`"}</Math>:
 
 <Center>
   <Math>{"`text(GOOFI) = (frac{0.08}{pi} arctan(0.2epsilon))^2`"}</Math>
 </Center>
 
 ### Overall Variance
-We combine VIBE and GOOFI in the same manner we combined BABOON and polling averages using an arctangent function with the same weights. The idea behind this is the same; if we are given an infinite number of polls, the vast majority of our extra variance should come from the undecided voters as opposed to how wrong the 2020 ORACLE was.
+We combine the variance from the polls with the combined VIBE and <Math inline>{"`text(GOOFI)`"}</Math> variance using the method described below.
+
+To combine <Math inline>{"`text(VIBE)`"}</Math> with <Math inline>{"`text(GOOFI)`"}</Math>, we take a weighted average of the two values. We weight <Math inline>{"`text(VIBE)`"}</Math> using the same weight <Math inline>{"`w`"}</Math> used to combine the polling averages with <Math inline>{"`text(BABOON)`"}</Math> (see Combining Polls with <Math inline>{"`text(BABOON)`"}</Math> section). The weight given to <Math inline>{"`text(GOOFI)`"}</Math> is complementary to the weight given to <Math inline>{"`text(VIBE)`"}</Math> so that the weights always sum to <Math inline>{"`1`"}</Math>. The total additional variance from <Math inline>{"`text(VIBE)`"}</Math> and <Math inline>{"`text(GOOFI)`"}</Math> is calculated by:
 
 <Center>
   <Math>{"`sigma_text(extra)^2 = w * text(VIBE) +(1-w) * text(GOOFI)`"}</Math>
 </Center>
 
-The overall variance <Math inline>{"`sigma^2`"}</Math> is calculated by adding the sampling variances of the polls with the extra variance.
+We compute the overall variance <Math inline>{"`sigma^2`"}</Math> for our state lean by adding the additional variance from <Math inline>{"`text(VIBE)`"}</Math> and <Math inline>{"`text(GOOFI)`"}</Math> to the weighted sampling variance from the polls.
 
 <Center>
   <Math>{"`sigma^2 = sigma_text(polls)^2 + sigma_text(extra)^2`"}</Math>
