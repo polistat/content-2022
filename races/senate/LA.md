@@ -19,10 +19,7 @@ Louisiana is a state in the southern region of the United States. A large portio
   </Box>
 
   <Box>
-    Democratic challenger Luke Mixon is one of the likely forerunners of this
-    race. He is a former Navy fighter pilot and he currently works as a commercial
-    airline pilot. He earned a bachelor’s degree from the U.S. Naval Academy in
-    2001.
+    Democratic challenger Luke Mixon is one of the likely forerunners of this race. He is a former Navy fighter pilot and he currently works as a commercial airline pilot. He earned a bachelor’s degree from the U.S. Naval Academy in 2001.
   </Box>
   <Box>
     Republican Senator John Neely Kennedy is the incumbent and first took office in 2017. He completed his undergraduate education at Vanderbilt University and then went on to earn his law degree from the University of Virginia in 1977. Aside from his position as a senator, Kennedy has worked as a professor at LSU Law School and as a substitute teacher in East Baton Rouge Parish public schools. Kennedy has been endorsed by former President Donald Trump and is pursuing a second term.

@@ -223,7 +223,7 @@ We calculate VIBE using a logarithmic function to standardize the data as <Math 
 Evaluating how accurately polls have been able to predict election results for states in the past can help us determine uncertainty in the polls for each state in this cycle. We calculate the Gradient of Ordinary Fixedness Index (GOOFI) by looking at how wrong the 2020 ORACLE was about each state’s behavior in the 2020 presidential election. The percent error is calculated by
 
 <Center>
-  <Math>{"`epsilon = frac{abs(D_2020 - hat D)}{D_2020}`"}</Math>
+  <Math>{"`epsilon = frac{abs(D_2020 - hat D)}{hat D}`"}</Math>
 </Center>
 
 where <Math inline>{"`D_2020`"}</Math> was the actual 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
