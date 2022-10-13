@@ -1,4 +1,4 @@
-## About STATE NAME
+## About Rhode Island
 Rhode Island, a U.S. state in New England, is known for sandy shores and seaside Colonial towns. It's home to several large cities, including Newport, which is famed for sailing and Gilded Age mansions, such as The Breakers.
 
 ---
@@ -7,14 +7,14 @@ Rhode Island, a U.S. state in New England, is known for sandy shores and seaside
 
 <Grid>
   <Box>
-    ### DEMOCRATIC CANDIDATE (D)
-    ![Image of DEMOCRATIC CANDIDATE]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/danielmckee.jpg
-    *Source: [SOURCE NAME](SOURCE LINK)*
+    ### Dan McKee (D)
+    ![Image of Dan McKee](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/danielmckee.jpg)
+    *Source: [Ballotpedia](https://ballotpedia.org/Daniel_McKee)*
   </Box>
   <Box>
-    ### REPUBLICAN CANDIDATE (R)
-    ![Image of REPUBLICAN CANDIDATE]https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ashley_KalusRI.png
-    *Source: [SOURCE NAME](SOURCE LINK)*
+    ### Ashley Kalus (R)
+    ![Image of Ashley Kalus](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ashley_KalusRI.png)
+    *Source: [Ballotpedia]](https://ballotpedia.org/Ashley_Kalus)*
   </Box>
 
   <Box>
@@ -35,7 +35,7 @@ Rhode Island, a U.S. state in New England, is known for sandy shores and seaside
   </Box>
 
   <Header>
-    
+    #### Issues & controversies
   </Header>
 
   <WideBox>

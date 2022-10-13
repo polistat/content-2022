@@ -12,7 +12,7 @@ Bordered by both the Mississippi River and the Missouri River, Iowa is home to o
     *Source: [Ballotpedia]https://ballotpedia.org/Deidre_DeJear*
   </Box>
   <Box>
-    ### REPUBLICAN CANDIDATE (R)
+    ### Kim Reynolds (R)
     ![Image of Kim Reynolds](https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kim_Reynolds_2013.jpg)
     *Source: [Ballotpedia](https://ballotpedia.org/Kim_Reynolds)*
   </Box>
