@@ -44,7 +44,7 @@ Wisconsin is a northern Mid-West state known for its dairy industry, particularl
     #### Campaign ads
   </Header>
   <Box>
-    - ["TM Pop up" - Tony Evers campaign ad]https://www.youtube.com/watch?v=WPU2m4ii3TU)
+    - ["TM Pop up" - Tony Evers campaign ad](https://www.youtube.com/watch?v=WPU2m4ii3TU)
   </Box>
   <Box>
     - ["Not Beholden" - Tim Michels campaign ad](https://www.youtube.com/watch?v=afKXh4x05Ts)
