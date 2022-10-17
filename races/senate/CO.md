@@ -1,5 +1,5 @@
 ## About Colorado
-Connecticut consistently elects Democratic candidates, electing
+Colorado consistently elects Democratic candidates, electing
 Hillary Clinton (D) by 14% in 2016, and Joe Biden (D) by 20% in 2020.
 In 2021, 67% of residents of Colorado identified as White/non-hispanic. 22.3% identified as Hispanic/Latino, 4.1% identified as Black, 3.4% identified as Asian, 0.2% as Native Hawaiian and Other Pacific Islander, and 2.5% as multiracial. As for political leanings, 42% identified as Democratic/Democratic leaning, 41% identified as Republican/Republican leaning, and 17% identified as no leaning. There is a rather high number of Colorado Gubernatorial election candidates, notable candidates include Democratic incumbent Jared Polis and Republican candidate Heidi Ganahl.
 
