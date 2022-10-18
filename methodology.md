@@ -26,7 +26,7 @@ A state’s historic voting tendencies gave important insight into its future vo
     <thead className="text-left uppercase text-sm text-neutral-400">
       <tr>
         <th className="px-5 py-1.5">Election</th>
-        <th className="px-5 py-1.5">Weight (<Math inline>{"`w`"}</Math>)</th>
+        <th className="px-5 py-1.5">Weight (w)</th>
       </tr>
     </thead>
     <tbody className="">
@@ -101,7 +101,7 @@ For the Senate Model only.[^1]
 
 We incorporated a national mood shift (Bigmood) into our predictions for senate races, but not gubernatorial races. The national mood referred to the general feelings of the American people toward the country’s issues and policymakers’ actions. We decided that national mood did not affect voters’ opinions of gubernatorial candidates because gubernatorial races center more on local, as opposed to national, issues. We evaluated national mood through generic ballot polls, which asked people which party (Democratic or Republican) they would support in the election if it were held today.
 
-To calculate the Bigmood, we took the weighted average of Democratic two-party percentages from generic ballot polls that earned at least a C- grade or higher on FiveThirtyEight](https://projects.fivethirtyeight.com/polls/). We weighted these generic ballot polls based on the number of days that had passed since their end date so that more recent polls had more weight in our model. The weight w for each poll was
+To calculate the Bigmood, we took the weighted average of Democratic two-party percentages from generic ballot polls that earned at least a C- grade or higher on [FiveThirtyEight](https://projects.fivethirtyeight.com/polls/). We weighted these generic ballot polls based on the number of days that had passed since their end date so that more recent polls had more weight in our model. The weight w for each poll was
 
 <Center>
   <Math>{"`w = e^{-0.05d}`"}</Math>
@@ -141,7 +141,7 @@ where <Math inline>{"`d`"}</Math> represented the number of days since the poll 
 by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
 
 <Center>
-  <Math>{"`mu = frac{sum w_i * D_i}{sum w_i}`"}</Math>
+  <Math>{"text(polls) = frac{sum w_i * D_i}{sum w_i}`"}</Math>
 </Center>
 
 We also calculated the sampling variance <Math inline>{"`sigma_text(polls)^2`"}</Math> , which we used in our simulation as explained in a later section.
@@ -171,7 +171,7 @@ We used the sampling variance of polls in our calculations for BABOON and Lean. 
   <Math>{"`sigma^2 = frac{D(1-D)}{n}`"}</Math>
 </Center>
 
-where <Math inline>{"`n`"}</Math> was the sample size of the poll, then the total sampling variance of polls for the race <Math inline>{"`sigma_text(*)^2`"}</Math> was the weighted average of the sampling variances for each poll weighted by age using the same formula for weight w used with Bigmood and Lean.
+where <Math inline>{"`n`"}</Math> was the sample size of the poll, then the total sampling variance of polls for the race <Math inline>{"`sigma_text(*)^2`"}</Math> was the weighted average of the sampling variances for each poll weighted by age using the same formula for weight <Math inline>{"`w`"}</Math> used with Bigmood and Lean.
 
 <Center>
   <Math>{"`sigma_text(*)^2 = frac{sum sigma_i^2*w_i}{sum w_i}`"}</Math>
@@ -205,7 +205,7 @@ Evaluating how accurately our general methodology predicted election results in 
 
 where <Math inline>{"`D_2020`"}</Math> was the actual 2020 Democratic two-party vote percentage and <Math inline>{"`hat D`"}</Math> was the 2020 ORACLE prediction.
 
-We use an arctangent function to calculate <Math inline>{"`text(GOOFI)`"}</Math> from this value so that our variance is not disproportionately affected by errors in the past model. To calculate variance from  <Math inline>{"`text(GOOFI)`"}</Math>:
+We use an arctangent function to calculate GOOFI from this value so that our variance is not disproportionately affected by errors in the past model.
 
 <Center>
   <Math>{"`text(GOOFI) = (frac{0.08}{pi} arctan(0.2epsilon))^2`"}</Math>
@@ -282,10 +282,10 @@ The final estimate <Math inline>{"`mu`"}</Math> for a given race was then calcul
   <Math>{"`mu = text(Lean) + Deltax`"}</Math>
 </Center>
 
-The formula for <Math inline>{"`Deltax_text(dem)`"}</Math> became very problematic in some states. As the denominator approached 0, <Math inline>{"`Deltax_text(dem)`"}</Math> increased asymptotically to infinity. To counteract the excessive shift due to correlation, we limited the value of <Math inline>{"`mu`"}</Math> such that
+The formula for <Math inline>{"`Deltax_text(dem)`"}</Math> became very problematic in some states. As the denominator approached 0, <Math inline>{"`Deltax_text(dem)`"}</Math> increased asymptotically to infinity. To counteract the excessive shift due to correlation, we limited the value of <<Math inline>{"`Deltax`"}</Math> such that
 
 <Center>
-  <Math>{"`mu in [-0.05,0.05]`"}</Math>.
+  <Math>{"`Deltax in [-0.05,0.05]text(.)`"}</Math>
 </Center>
 
 ### Example
