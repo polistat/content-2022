@@ -177,13 +177,8 @@ where <Math inline>{"`n`"}</Math> was the sample size of the poll, then the tota
   <Math>{"`sigma_text(*)^2 = frac{sum sigma_i^2*w_i}{sum w_i}`"}</Math>
 </Center>
 
-<!-- ### Variance from Bigmood
-The generic ballot polls used to calculate Bigmood also have sampling error. We follow the same steps used to find variance from the polls (see Variance from the Polls section) to find the sampling error of each generic ballot poll and take a weighted average according to the weights used for calculating Bigmood (see Bigmood section).  -->
-
 ### Variance of Indecisive Ballot Electors (VIBE)
 The Variance of Indecisive Ballot Electors (VIBE) was a metric used to add uncertainty to our model based on how many uncommitted voters there were in each race according to polling. We defined uncommitted voters <Math inline>{"`U`"}</Math> as anyone who reported not voting for the top Republican and Democratic candidates using the formula <Math inline>{"`1-(D_text(actual)+R_text(actual))`"}</Math>. Note that <Math inline>{"`D_text(polls)`"}</Math> was not the same as <Math inline>{"`D`"}</Math> used in earlier calculations because <Math inline>{"`D`"}</Math> was the proportion of voters who voted for the top Democratic candidate among those who voted for either the top Democratic or Republican candidates, while <Math inline>{"`D_text(polls)`"}</Math> was the proportion of voters who voted for the top Democratic candidate among all people polled, including those who voted for third parties or were uncommitted. Using the weights
-
-<!-- Using the previously assigned weights for each poll (see Averaging Polls section), we take a weighted average of all of the polls' estimates for the percentage of uncommitted voters. The average uncommitted voter percentage <Math inline>{"`A`"}</Math> is: -->
 
 <Center>
   <Math>{"`w = e^{-0.05d)`"}</Math>
