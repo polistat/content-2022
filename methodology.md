@@ -89,7 +89,7 @@ A state’s historic voting tendencies gave important insight into its future vo
 For each past election, there was a Democratic two-party vote percentage <Math inline>{"`D`"}</Math> and weight <Math inline>{"`w`"}</Math>. Weights were determined by polling our political statistics students for weights and taking the median of the results. The BPI was calculated by taking the weighted average of these previous elections.
 
 <Center>
-  <Math>{"`BPI = frac{sum D_i*w_i}{sum w_i}`"}</Math>
+  <Math>{"`text(BPI) = frac{sum D_i*w_i}{sum w_i}`"}</Math>
 </Center>
 
 The BPI served as a starting point in our model for estimating the two-party vote percentage that the Democratic candidate would receive.
@@ -128,7 +128,7 @@ We used <Math inline>{"`X`"}</Math> to calculate BABOON for each iteration by ta
   <Math>{"`text(BABOON) = text(BPI) + 0.15(X-0.5)`"}</Math>
 </Center>
 
-For gubernatorial races, the shift due to Bigmood is <Math inline>{"`0`"}</Math> and <Math inline>{"`text(BABOON)`"}</Math> is equal to the calculated <Math inline>{"`text(BPI)`"}</Math> value.
+For gubernatorial races, the shift due to Bigmood is <Math inline>{"`0`"}</Math> and BABOON is equal to the calculated BPI value.
 
 ### Averaging Polls
 Polling data was a valuable predictor of future voting behavior. In our model, we only factored in polls that earned at least a C- grade on [FiveThirtyEight](https://fivethirtyeight.com/polls/) and had no more than one Democratic and one Republican candidate with the exception of Alaska. For Alaska, we categorized any candidate other than the top Democratic and Republican candidates as a third-party candidate. As with Bigmood, we weighted polls based on the number of days that had passed since their end date so that more recent polls had more weight in our model. The weight <Math inline>{"`w`"}</Math> for each poll was
@@ -141,7 +141,7 @@ where <Math inline>{"`d`"}</Math> represented the number of days since the poll 
 by taking the weighted average of the Democratic two-party vote percentage <Math inline>{"`D`"}</Math> for each poll.
 
 <Center>
-  <Math>{"text(polls) = frac{sum w_i * D_i}{sum w_i}`"}</Math>
+  <Math>{"`text(polls) = frac{sum w_i * D_i}{sum w_i}`"}</Math>
 </Center>
 
 We also calculated the sampling variance <Math inline>{"`sigma_text(polls)^2`"}</Math> , which we used in our simulation as explained in a later section.
