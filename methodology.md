@@ -282,7 +282,7 @@ The final estimate <Math inline>{"`mu`"}</Math> for a given race was then calcul
   <Math>{"`mu = text(Lean) + Deltax`"}</Math>
 </Center>
 
-The formula for <Math inline>{"`Deltax_text(dem)`"}</Math> became very problematic in some states. As the denominator approached 0, <Math inline>{"`Deltax_text(dem)`"}</Math> increased asymptotically to infinity. To counteract the excessive shift due to correlation, we limited the value of <<Math inline>{"`Deltax`"}</Math> such that
+The formula for <Math inline>{"`Deltax_text(dem)`"}</Math> became very problematic in some states. As the denominator approached 0, <Math inline>{"`Deltax_text(dem)`"}</Math> increased asymptotically to infinity. To counteract the excessive shift due to correlation, we limited the value of <Math inline>{"`Deltax`"}</Math> such that
 
 <Center>
   <Math>{"`Deltax in [-0.05,0.05]text(.)`"}</Math>
