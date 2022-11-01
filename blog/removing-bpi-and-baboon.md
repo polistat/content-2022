@@ -16,7 +16,7 @@ A common practice in political statistics models is to use the Bayesian model, w
 | 2018 House | 0.0435 |
 | 2018 Senate | 0.1 |
 | 2018 Governor | 0.1 |
-| 2020 Presidnetial | 0.15 |
+| 2020 Presidential | 0.15 |
 | 2020 House | 0.0945 |
 | 2020 Senate | 0.11 |
 | 2020 Governor | 0.1 |
