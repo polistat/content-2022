@@ -4,11 +4,11 @@ description: "A recalculation of BPI with a higher weight to recent election"
 date: "2022-11-02T05:00-21:00"
 ---
   
-# Introduction
+## Introduction
 
 In the Blair Oracle model this year, BPI (Blair Partisan Index) is a weighted average of previous election results in a state to add accurate historical bias into the calculation of the state’s predictive center in the model. The current weights for BPI go all the way back to 2014, albeit weighting them lower than more recent polls. We decided that election results after 2016 are significantly more reflective of the current political landscape and therefore should be weighted accordingly to account for this recent shift. In 2016, Donald Trump was elected into office, reshaping American politics. Throughout his time in office, the outspoken former President utilized media and policy to gain conservative victories, making America increasingly polarized. We hypothesize that by shifting the BPI to only weigh elections within the past 6 years will generally cause the BPI to lean more Democratic, better reflecting today’s political climate.
 
-# Methodology
+## Methodology
 
 In the original model, 2020’s elections comprise around 45% of the total weight. 2018’s make up about 25%, 2016 is a bit over 20%, and 2014 fills in the last 10%. Our BPI model concentrates more of the weight in recent elections; 2020 has 62% of the weight, 2018 covers 28%, and 2016 makes up the final 20%.
 
@@ -33,7 +33,7 @@ When calculating the new BPI, we found an average shift of 0.506403501 percent t
 
 ![BPI change by state](https://drive.google.com/uc?id=1BBOXeQf6HjUDMqct0wiMofDI1sHutt8o)
 
-# Results
+## Results
 
 When implementing the BIPBLEEP BPI into the model, however, the results were much less pronounced. The predicted win percentages for each race shifted ever so slightly democratic (mean = 0.1883), but not enough to be significant with a matched-pair t-test (p = 0.5953). The low effect on election predictions translated into little change in the model’s overall predictions for the senate, with a slight shift democratic and spreading out of the probability curve for seat amounts, but nothing very significant.
 
@@ -41,7 +41,7 @@ Even in states where the BPI was more affected by BIPBLEEP, such as Georgia, the
 
 ![Change in Senate prediction](https://drive.google.com/uc?id=1DejaOAicNkuTcJmWIRyx8i4HFLAFJ48Q)
 
-# Analysis
+## Analysis
 
 One explanation for why the different BPI didn’t lead to differing election predictions is that BPI often isn’t a huge factor in the model as a whole. BPI is a “prior”, meaning it is the state’s predicted partisan lean before polls are factored into the model. Polls give a much more recent and current look into how a population will vote. To balance the prior information and polls, an equation based on the number of polls (n) and number of polls in the last 30 days (n30) was used to calculate the percentage of the model’s lean to be determined by polls and not BPI/BABOON (BPI combined with national mood for Senate races)
 

@@ -96,12 +96,14 @@ The final race that flipped was the Kansas Governor race between Laura Kelly (D,
 
 **Race Flip Summary**
 
+<Center>
 |Race|Original Winner|Original Lean|Formula 1 Lean|Formula 2 Lean|Formula 3 Lean|Formula 4 Lean|Formula 5 Lean|
 |--|--|--|--|--|--|--|--|
 |Arizona Senate|D|51.498|47.798|49.400|51.316 (No flip)|47.657|49.225|
 |Georgia Senate|D|50.645|47.449|48.819|50.553 (No flip)|47.391|48.746|
 |Wisconsin Senate|R|49.615|50.019|49.846 (No flip)|49.625 (No flip)|50.025|49.854 (No flip)|
 |Kansas Governor|R|44.680|44.156 (No flip)|44.381 (No flip)|50.180|47.629 (No flip)|48.723 (No flip)|
+</Center>
 
 ###
 Overall, adjusting the weight given to the polls when combining the polling average with the BPI does not cause significant changes in our model’s predictions. There are only 4 state races where our adjusted formulas cause the predicted win to flip from one party to the other, and these races are generally very tight races with small predicted win margins. Adjusting the weight of the polls has the most significant impact in races where the BPI and the polling average of the state are very different. 
