@@ -36,19 +36,19 @@ The new formulas and how we will refer to them are listed below:
 We obtained our results by using Minitab to run paired t-tests and generate graphs.
 
 **Formula 1**
-![Histogram of Differences](https://drive.google.com/uc?id=1fR6ESC8ejtH3_bXPh38w1YyOY6ErOwWL)
+![Histogram of Differences](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/3_image7.png)
 
 **Formula 2**
-![Histogram of Differences](https://drive.google.com/uc?id=1vgxoWuF4sDMYFCtYF47G1Xt1GnIyeEqe)
+![Histogram of Differences](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/3_image8.png)
 
 **Formula 3**
-![Histogram of Differences](https://drive.google.com/uc?id=1WP_zVsIYVkdaSixKLQVNLiaAzEsKJClP)
+![Histogram of Differences](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/3_image9.png)
 
 **Formula 4**
-![Histogram of Differences](https://drive.google.com/uc?id=16iE_zJu8amVvseGy_6xsf_5TsJF4fKyd)
+![Histogram of Differences](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/3_image10.png)
 
 **Formula 5**
-![Histogram of Differences](https://drive.google.com/uc?id=109jMX-R0J4vFb2qVrv448QRpA5FSd_7P)
+![Histogram of Differences](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/3_image11.png)
 
 ### Discussion and Conclusions
 

@@ -33,22 +33,22 @@ There is a point in the modeling process where poll percentage values and BABOON
 To show state-by-state differences between the base ORACLE results and the results of not using BABOON in our calculations, we made maps of percentage of predicted vote based on data from October 18th, 2022. 
 
 ### Senate Map from ORACLE
-![ORACLE Senate](https://drive.google.com/uc?id=10b98vIec03lN8RcwMLEjAd6sjq3UqsF2)
+![ORACLE Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/13_ORACLESenate.png)
 
 
 
 ### Senate Map with no BABOON
-![No BABOON Senate](https://drive.google.com/uc?id=1OnNG-NG7jPdsmuYGxFMYAz3lwCWLCC7f)
+![No BABOON Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/13_NoBABOONSenate.png)
 
 
 
 ### Governor's Map from ORACLE
-![ORACLE Governor's](https://drive.google.com/uc?id=1P4QST9aIQRLIH_mRw-wdjPxV5xX_XDIZ)
+![ORACLE Governor's](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/13_ORACLEGovernor.png)
 
 
 
 ### Governor's Map with no BPI
-![No BPI Governor's](https://drive.google.com/uc?id=1NQcvc7aecaFsgoqy7mn6goRFEu3kme9y)
+![No BPI Governor's](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/13_NoBABOONGovernor.png)
 
 
 Along with these mappings, we did match-paired T-tests to see if getting rid of BABOON had a statistically significant effect overall. In basic terms, this test assumes that there is no difference whether we are using BABOON or not and then quantifies how likely achieving the actual results is under this assumption. The numbers that describe this are called p-values. For both the comparisons for the Senate and the Governor races, our tests revealed very high P-values, of 56.8% and 48.6%, respectively. Essentially this is saying that if we assumed there was no difference, we would see results like the ones we got about half of the time. This means that there is no evidence of a difference between models with and without BABOON.
