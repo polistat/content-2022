@@ -1,5 +1,5 @@
 ---
-title: "Weight a second... How does changing our poll weight formula affect our model's predictions?"
+title: "Weight a second: How does changing our poll weight formula affect our model's predictions?"
 description: "An analysis of the effect of adjusting weight given to polls when combining polling averages with BPI"
 date: "2022-11-02T12:00-04:00"
 ---
