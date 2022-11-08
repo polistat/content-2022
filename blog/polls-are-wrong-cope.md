@@ -57,7 +57,7 @@ If a state had Senate elections in both the 2018 and 2020, we averaged each year
 
 Each state’s SCOPE was added onto the Old Weighted Average of Current US Senate Polls for that state (OWACP) to calculate the New Weighted Average of Current Polls (NWACP):
 <br/>
-<Math>{"\\(NWACP=SCOPE+OWACP\\)"}</Math>
+<Center><Math>{"\\(NWACP=SCOPE+OWACP\\)"}</Math></Center>
 <br/>
  
 ## Adjusting Generic Polling Error

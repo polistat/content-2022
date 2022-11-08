@@ -35,34 +35,34 @@ On the other hand, 538 has CANTOR, which infers what polling would say in unpoll
 ## Comparison of Chance of Winning (%) Predictions between ORACLE and 538
 We compared the final ORACLE and 538 predictions of election results in battleground states using t-tests. These states for the Senate were: Georgia, Ohio, North Carolina, Nevada, and Wisconsin; These states for the Gubernatorial election were: Arizona, Kansas, Nevada, Wisconsin, and Oregon. Our dataset for each t-test took the final chance of winning from ORACLE and 538 on 10/27/22 and took their difference, giving us a dataset of 5 values. Our null hypothesis was that there was no difference between the predictions of ORACLE and 538. We found that for the Gubernatorial Race race, the p-value was 0.828, showing that we do not have evidence to show that the final ORACLE and 538 predictions were different. For the Senate, the p-value was 0.033, indicating that we have sufficient evidence to suggest that ORACLE and 538 are different. 
 
-![p-value](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Screenshot-2022-11-04-131829.png)
+![p-value](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Screenshot-2022-11-04-131829.png)
 
 The graphs below compare the ORACLE and 538 predictions for Democratic win probability. Observing graphs comparing the Democratic chance of winning predictions on each day, we can see that six out of ten of ORACLE’s predictions become closer to 538’s election day approaches, suggesting that our model either relies heavily on the number of polls taken or factors in time from the current day too much. 
 
 ### Gubernatorial Elections
-![GubernatorialElectionsDiff](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_image.png)
+![GubernatorialElectionsDiff](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_image.png)
 
 Looking at Gubernatorial races for all states, with the exception of Oregon, ORACLE tended to underestimate Democratic chances of winning compared to 538. This can be attributed to 538’s much more extensive focus on priors/fundamentals. While ORACLE only took into account the incumbency of a candidate, 538’s priors are much more detailed, individually looking much more in-depth into different aspects of individual candidates. In many aspects, 538 simply took into account more factors, so it is difficult to say which one specifically led to the difference observed. However, the use of fundamentals seems to be an area where 538 and ORACLE differ the greatest in execution. 
-![Kansas Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Kansas-Gubernatorial-Democratic-Chances-of-Winning.png)
+![Kansas Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Kansas-Gubernatorial-Democratic-Chances-of-Winning.png)
 It is interesting to note that in the ORACLE Gubernatorial predictions for Oregon and Kansas, there were long periods of stagnation in the predictions with high fluctuation before and after the periods of stagnation. In Kansas, the ORACLE prediction was around 11% from 9/1/22 to 9/5/22 while 538 was 55%, and ORACLE was around 15% from 10/18/22 to 10/27/22 while 538 was between 60% and 65%. In Oregon, ORACLE predicted the Democratic chances of winning to be nearly 85% from 9/14/22 to 9/29/22, while 538 predicted it to be between 58% and 68%. This suggests that the ORACLE model was strongly affected by a single poll and did not shift back to a more expected output until a new poll was uploaded. 
-![Oregan Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Oregon-Gubernatorial-Democratic-Chances-of-Winning.png)
+![Oregan Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Oregon-Gubernatorial-Democratic-Chances-of-Winning.png)
 
 **Other Graphs**
-![Nevada Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Nevada-Gubernatorial-Democratic-Chances-of-Winning.png)
-![Arizona Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Arizona-Gubernatorial-Democratic-Chances-of-Winning.png)
-![Wisconsin Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Wisconsin-Gubernatorial-Democratic-Chances-of-Winning.png)
+![Nevada Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Nevada-Gubernatorial-Democratic-Chances-of-Winning.png)
+![Arizona Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Arizona-Gubernatorial-Democratic-Chances-of-Winning.png)
+![Wisconsin Gubernatorial](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Wisconsin-Gubernatorial-Democratic-Chances-of-Winning.png)
 
 ### Senate Elections
 
-![SenateElectionsDiff](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_image.png)
+![SenateElectionsDiff](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_image.png)
 In North Carolina, Ohio, and Wisconsin, ORACLE consistently overestimates the Democratic chances of winning compared to 538, while in Georgia and Nevada, ORACLE underestimated at times but was frequently very similar to 538’s predictions. These are reflected in the mean differences, with Georgia and Nevada being negative and each having less than a 6% difference in the percentage of winning, while North Carolina, Ohio, and Wisconsin all had positive differences in the percentage of winning greater than 10%. 
 
 ### Relavant Graphs
-![Georgia Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Georgia-Senate-Democratic-Chances-of-Winning.png)
-![North Carolina Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_image.png)
-![Nevada Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Nevada-Senate-Democratic-Chances-of-Winning-1.png)
-![Wisconsin Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Wisconsin-Senate-Democratic-Chances-of-Winning.png)
-![Ohio Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/15_Ohio-Senate-Democratic-Chances-of-Winning.png)
+![Georgia Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Georgia-Senate-Democratic-Chances-of-Winning.png)
+![North Carolina Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_image.png)
+![Nevada Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Nevada-Senate-Democratic-Chances-of-Winning-1.png)
+![Wisconsin Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Wisconsin-Senate-Democratic-Chances-of-Winning.png)
+![Ohio Senate](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/4_Ohio-Senate-Democratic-Chances-of-Winning.png)
 
 ## Conclusion
 Although there were some differences between the predictions of ORACLE and 538 due to differences in methodology, specifically in the priors. Final predictions for the Senate showed that there was evidence of a difference between 538 and ORACLE predictions, as seen in the p-value, while the Gubernatorial race predictions showed no evidence of differences according to the p-value. Looking at the graphs of predictions over time, the Senate showed more consistency in ORACLE predictions, while the Gubernatorial predictions fluctuated for Kansas and Oregon. 
