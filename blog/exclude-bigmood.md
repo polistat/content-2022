@@ -4,25 +4,25 @@ description: "Analyzing the effects of including and excluding Bigmood in our mo
 date: "2022-11-04T21:21-04:00"
 ---
   
-### Bigmood's Significance
+## Bigmood's Significance
 As described on our [methodology page](https://polistat.mbhs.edu/methodology#national-mood-bigmood), Bigmood relies on generic ballot polls to determine how national mood affects our senate race predictions. Generic ballot polls ask voters if they would support the Democratic or Republican party if the election were held on the day of the poll. Bigmood was not used in our gubernatorial predictions as these races are more focused on local than national issues.
-### Motivation to Exclude Bigmood
+## Motivation to Exclude Bigmood
 While gubernatorial races certainly address local issues more frequently than national ones, close races like Oregon and Wisconsin may align more closely with the national mood than more polarized races. We have investigated how including Bigmood in both senate and governor races affects overall Democratic win in comparison to not taking Bigmood into account at all.
-### Results
-![ResultsTables](https://media.discordapp.net/attachments/752918157336903782/1038600405661253683/image.png) 
+## Results
+![ResultsTables](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/12_ResultsTables.png) 
 Descriptive Statistics indicate that the difference between adding Bigmood to the gubernatorial race and having no Bigmood at all is quite small, with only a difference of 0.18% in democratic win chance. Histograms corroborate this finding, being centered at around 0.2 difference, and the boxplot has a similar median. Despite this, the T-test comparing two means shows that the p-value of this difference is 0, indicating that the difference is statistically significant. This may be due to the large number of simulations being performed in the model, which means any small differences in win percentage are significant.
 ### Discussion
 We conclude that Bigmood has a significant effect on the win probability of the Democrat. Although the effect of Bigmood on the actual predicted vote is small, any small difference in the predicted vote percentage has a large impact on the predicted win percentage of the Democrat. The existence of a significant difference in simulations run with and without Bigmood proves that adding Bigmood was a smart decision. We had originally added Bigmood to account for people that the polls could not reach: people without phones, people that had not made up their minds, and other people that were going to vote but had not been polled. The inclusion of Bigmood predicted that these people would vote significantly differently from what the polls predicted, and would actually vote similarly to the national bias. Had this reasoning been flawed, we would have been unable to conclude that Bigmood has a significant effect on the model through the simulations we ran, because adding Bigmood would not significantly alter the predicted vote percentage.
 
 As expected, already polarized states experienced only small effects of Bigmood, this applies to both sides of the spectrum, with races such as the extremely democratic Hawaii senate and governor only experiencing a 0.002 and 0.0001 percentage point change when adding Bigmood. Similarly, in North Dakota, a very Republican state, the senate race’s predicted win percentage underwent a 0.0085-point change. On the other hand, races that could go either way felt Bigmood heavily. Both the Wisconsin governor and Oregon senate races underwent a large change, being 0.2499 and 0.1243 respectively. This is relatively large compared to the fractions mentioned for polarized states. This further proves our previous claim. 
 
-![BigmoodVsPolarization](https://media.discordapp.net/attachments/752918157336903782/1038601014468694058/image.png)
+![BigmoodVsPolarization](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/12_BigmoodVsPolarization.png)
 
 Another interesting realization that comes from the data is how inconsistent the difference Bigmood made was. At the edges of polarization (where races are extremely easy to predict), we saw that Bigmood made very little difference. This applies on both ends of the political spectrum. Oklahoma, Indiana, and New York all experienced minimal change as a result of Bigmood: Oklahoma and Indiana remained heavily favored towards the Republicans, and New York remained heavily favored for the Democrat. However, any race within the middle of the data, the effect Bigmood would have was unpredictable. This shows that the effect of Bigmood is significant, yet it doesn’t seem to follow any clear rationale.
 
-![IndividualStates](https://media.discordapp.net/attachments/752918157336903782/1038600898735251567/image.png)
+![IndividualStates](https://raw.githubusercontent.com/polistat/content-2022/master/blog/assets/12_IndividualStates.png)
 
 However, the Difference vs Polarization graph also shows peculiarities. The graph should be unimodal where the less polarized states are more likely to be affected by Bigmood. On the left side of the graph are the Republican-leaning states. They follow our predicted model in terms of how they are affected by Bigmood. On the other hand, the Democratic-leaning states on the right side of the graph has one peak but is much more uniform than the Republican-leaning states. This means that Democratic states, in general, are less susceptible to change due to Bigmood.
 
-### Conclusion
+## Conclusion
 Bigmood uses national polls to determine differences between state and national mood. Our model only uses bigmood on the senate race, so we studied the effects of using bigmood on both races and also not using Bigmood at all. There are two main conclusions arising from our analysis. First, Bigmood significantly affects republican swing states negatively (they are projected to have more democrat voters). Second, Bigmood does not affect polarized states very much, which makes sense because polarized states are not likely to be affected by public opinion as much as swing states.
