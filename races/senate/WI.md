@@ -9,8 +9,8 @@ Wisconsin is a midwestern U.S. state with coastlines on 2 Great Lakes (Michigan 
 <Grid>
   <Box>
     ### Mandela Barnes (D)
-    ![Image of Mandela Barnes](https://pbs.twimg.com/profile_images/1552025434266783744/wHHFrOGm_400x400.jpg)
-    *Source: [Twitter](https://mobile.twitter.com/theothermandela)*
+    ![Image of Mandela Barnes](https://upload.wikimedia.org/wikipedia/commons/c/c1/MandelaBarnesSpeech.png)
+    *Source: [Wikipedia](https://en.wikipedia.org/wiki/Mandela_Barnes)*
   </Box>
   <Box>
     ### Ron Johnson (R)
